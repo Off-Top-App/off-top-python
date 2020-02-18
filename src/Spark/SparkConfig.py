@@ -2,6 +2,9 @@ from pyspark import SparkContext
 from pyspark.streaming import StreamingContext
 from SparkMethods import SparkMethods
 
+#MIGHT NOT NEED THIS FILE
+#FLASK AND SPARK STREAMING HAVE A VERY SIMPLE WAY TO USE SPARK STREAMING
+
 class SparkConfig(object):
     def __init__(self, threads, spark_name, spark_domain, spark_port):
         self.spark_threads = threads
