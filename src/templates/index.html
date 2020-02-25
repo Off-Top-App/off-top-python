@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Off-top</title>
+
+    </head>
+    <body>
+        <h1>{{ name }}</h1>
+
+        <div>
+            {% for u in online_users %}
+                <p>{{ u.name }}</p>
+
+            {% endfor %}
+        </div>
+        
+    </body>
+</html>
