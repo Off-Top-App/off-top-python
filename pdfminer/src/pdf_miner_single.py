@@ -29,10 +29,10 @@ def convert(fname, pages=None):
 
 
 pdfFile= "sc.pdf"
-svariable = convert(pdfFile)
-print(svariable)
+minedText = convert(pdfFile)
+print(minedText)
 
 textFname= pdfFile + ".txt"
 textF= open(textFname, "w")
-textF.write(svariable)
+textF.write(minedText)
 
