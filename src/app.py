@@ -1,9 +1,10 @@
 #Flask Instance for Off-Top | Flask is a micro-framework
 
-from flask import Flask,jsonify
+from flask import Flask, jsonify
+from flask import request
 from flask_pymongo import PyMongo
-from  flask import render_template
-
+from flask.templating import render_template
+from Services.Spark.sparkServices import produce_pi_service, split_words_service
 app= Flask(__name__)
 # connect to MongoDB with the defaults
 #mongo1 = PyMongo(app, uri="mongodb://localhost:27017/off-top-db")
@@ -15,6 +16,7 @@ mongo = PyMongo(app)
 @app.route("/")
 def hello():
     return "Hello World!"
+
 @app.route("/sessions")      
 def home_page():
     sessions = mongo.db.sessions
@@ -24,5 +26,18 @@ def home_page():
         output.append({'_id': str(session['_id']), 'words': session['words']})
 
     return jsonify({'sessions' : output})
+
+@app.route('/split-words', methods=["POST"])
+def split_words():
+  words = request.form.get("words")
+  return split_words_service(words)
+
+@app.route("/sparkpi", methods=["GET"])
+def sparkpi():
+    scale = int(request.args.get('scale', 2))
+    pi = produce_pi_service(scale)
+    response = "Pi is roughly {}".format(pi)
+    return response
+
 if __name__ == "__main__":
   app.run(debug=True)
