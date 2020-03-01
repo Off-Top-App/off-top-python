@@ -17,13 +17,27 @@ mongo = PyMongo(app)
 def hello():
     return "Hello World!"
 
-@app.route("/sessions")      
-def home_page():
-    sessions = mongo.db.sessions
+@app.route("/sessions",methods=["POST"])      
+def sessions():
+    data = request.get_json()
+    session_collection = mongo.db.sessions
+    session_collection.insert({
+        "user_id":data["user_id"],
+        "first_received_at": data["first_received_at"],
+        "focus_score": data["focus_score"],
+        "transcribed_at": data["transcribed_at"],
+        "transcribed_speech": data["transcribed_speech"]
+    })
     output = []
-    for session in sessions.find():
-        print(session)
-        output.append({'_id': str(session['_id']), 'words': session['words']})
+    for session in session_collection.find():
+        output.append({
+            '_id': str(session['_id']),
+            "user_id":session["user_id"],
+            "first_received_at": session["first_received_at"],
+            "focus_score": session["focus_score"],
+            "transcribed_at": session["transcribed_at"],
+            "transcribed_speech": session["transcribed_speech"]
+        })
 
     return jsonify({'sessions' : output})
 
