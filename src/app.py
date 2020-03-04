@@ -5,7 +5,7 @@ from flask import request
 from flask_pymongo import PyMongo
 from flask.templating import render_template
 from Models.session import Session
-# from Services.Spark.sparkServices import produce_pi_service, split_words_service
+from Services.Spark.sparkServices import produce_pi_service, split_words_service
 app= Flask(__name__)
 # connect to MongoDB with the defaults
 #mongo1 = PyMongo(app, uri="mongodb://localhost:27017/off-top-db")
