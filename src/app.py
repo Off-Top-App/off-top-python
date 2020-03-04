@@ -4,7 +4,8 @@ from flask import Flask, jsonify
 from flask import request
 from flask_pymongo import PyMongo
 from flask.templating import render_template
-from Services.Spark.sparkServices import produce_pi_service, split_words_service
+from Models.session import Session
+# from Services.Spark.sparkServices import produce_pi_service, split_words_service
 app= Flask(__name__)
 # connect to MongoDB with the defaults
 #mongo1 = PyMongo(app, uri="mongodb://localhost:27017/off-top-db")
@@ -21,15 +22,20 @@ def hello():
 def sessions():
     data = request.get_json()
     session_collection = mongo.db.sessions
-    session_collection.insert({
-        "user_id":data["user_id"],
-        "first_received_at": data["first_received_at"],
-        "focus_score": data["focus_score"],
-        "transcribed_at": data["transcribed_at"],
-        "transcribed_speech": data["transcribed_speech"]
-    })
+    
+    new_session = Session( data["user_id"],data["first_received_at"],data["focus_score"],data["transcribed_at"],data["transcribed_speech"])
+    print(new_session.__dict__)
+    session_collection.insert(new_session.__dict__)
+    # session_collection.insert({
+    #     "user_id":data["user_id"],
+    #     "first_received_at": data["first_received_at"],
+    #     "focus_score": data["focus_score"],
+    #     "transcribed_at": data["transcribed_at"],
+    #     "transcribed_speech": data["transcribed_speech"]
+    # })
     output = []
     for session in session_collection.find():
+        print(session)
         output.append({
             '_id': str(session['_id']),
             "user_id":session["user_id"],
