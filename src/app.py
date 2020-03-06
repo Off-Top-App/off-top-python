@@ -24,18 +24,10 @@ def sessions():
     session_collection = mongo.db.sessions
     
     new_session = Session( data["user_id"],data["first_received_at"],data["focus_score"],data["transcribed_at"],data["transcribed_speech"])
-    print(new_session.__dict__)
-    session_collection.insert(new_session.__dict__)
-    # session_collection.insert({
-    #     "user_id":data["user_id"],
-    #     "first_received_at": data["first_received_at"],
-    #     "focus_score": data["focus_score"],
-    #     "transcribed_at": data["transcribed_at"],
-    #     "transcribed_speech": data["transcribed_speech"]
-    # })
+    session_collection.insert_one(new_session.__dict__)
     output = []
     for session in session_collection.find():
-        print(session)
+        print("NEW SESSION OBJECT CREATED: ", session)
         output.append({
             '_id': str(session['_id']),
             "user_id":session["user_id"],

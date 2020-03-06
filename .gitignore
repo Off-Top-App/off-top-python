@@ -1,3 +1,5 @@
 .vscode/*
 src/_pychace_/*
 src/Services/Spark/__pycache__/*
+
+!**/__pycache__/
