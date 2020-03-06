@@ -4,6 +4,7 @@ from flask import Flask, jsonify
 from flask import request
 from flask_pymongo import PyMongo
 from flask.templating import render_template
+from Models.session import Session
 from Services.Spark.sparkServices import produce_pi_service, split_words_service
 app= Flask(__name__)
 # connect to MongoDB with the defaults
@@ -17,13 +18,24 @@ mongo = PyMongo(app)
 def hello():
     return "Hello World!"
 
-@app.route("/sessions")      
-def home_page():
-    sessions = mongo.db.sessions
+@app.route("/sessions",methods=["POST"])      
+def sessions():
+    data = request.get_json()
+    session_collection = mongo.db.sessions
+    
+    new_session = Session( data["user_id"],data["first_received_at"],data["focus_score"],data["transcribed_at"],data["transcribed_speech"])
+    session_collection.insert_one(new_session.__dict__)
     output = []
-    for session in sessions.find():
-        print(session)
-        output.append({'_id': str(session['_id']), 'words': session['words']})
+    for session in session_collection.find():
+        print("NEW SESSION OBJECT CREATED: ", session)
+        output.append({
+            '_id': str(session['_id']),
+            "user_id":session["user_id"],
+            "first_received_at": session["first_received_at"],
+            "focus_score": session["focus_score"],
+            "transcribed_at": session["transcribed_at"],
+            "transcribed_speech": session["transcribed_speech"]
+        })
 
     return jsonify({'sessions' : output})
 
