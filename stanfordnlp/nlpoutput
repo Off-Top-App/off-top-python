@@ -1,0 +1,5 @@
+Use device: gpu
+---
+Loading: tokenize
+With settings: 
+{'model_path': './en_ewt_models/en_ewt_tokenizer.pt', 'lang': 'en', 'shorthand': 'en_ewt', 'mode': 'predict'}

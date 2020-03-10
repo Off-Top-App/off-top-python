@@ -1,0 +1,97 @@
+Use device: gpu
+---
+Loading: tokenize
+With settings: 
+{'model_path': './en_ewt_models/en_ewt_tokenizer.pt', 'lang': 'en', 'shorthand': 'en_ewt', 'mode': 'predict'}
+---
+Loading: pos
+With settings: 
+{'model_path': './en_ewt_models/en_ewt_tagger.pt', 'pretrain_path': './en_ewt_models/en_ewt.pretrain.pt', 'lang': 'en', 'shorthand': 'en_ewt', 'mode': 'predict'}
+---
+Loading: lemma
+With settings: 
+{'model_path': './en_ewt_models/en_ewt_lemmatizer.pt', 'lang': 'en', 'shorthand': 'en_ewt', 'mode': 'predict'}
+Building an attentional Seq2Seq model...
+Using a Bi-LSTM encoder
+Using soft attention for LSTM.
+Finetune all embeddings.
+[Running seq2seq lemmatizer with edit classifier]
+---
+Loading: depparse
+With settings: 
+{'model_path': './en_ewt_models/en_ewt_parser.pt', 'pretrain_path': './en_ewt_models/en_ewt.pretrain.pt', 'lang': 'en', 'shorthand': 'en_ewt', 'mode': 'predict'}
+Done loading processors!
+---
+====== Sentence 1 tokens =======
+index:   1	token: The
+index:   2	token: Data
+index:   3	token: Scientist
+index:   4	token: will
+index:   5	token: be
+index:   6	token: responsible
+index:   7	token: for
+index:   8	token: designing
+index:   9	token: and
+index:  10	token: implementing
+index:  11	token: a
+index:  12	token: program
+index:  13	token: for
+index:  14	token: analyzing
+index:  15	token: complex
+index:  16	token: ,
+index:  17	token: large
+index:  18	token: -
+index:  19	token: scale
+index:  20	token: data
+index:  21	token: sets
+index:  22	token: used
+index:  23	token: for
+index:  24	token: modeling
+index:  25	token: ,
+index:  26	token: data
+index:  27	token: mining
+index:  28	token: ,
+index:  29	token: research
+index:  30	token: ,
+index:  31	token: and
+index:  32	token: predictive
+index:  33	token: analysis
+index:  34	token: purposes
+index:  35	token: .
+<class 'stanfordnlp.pipeline.doc.Document'>
+------
+('The', '3', 'det')
+('Data', '3', 'compound')
+('Scientist', '6', 'nsubj')
+('will', '6', 'aux')
+('be', '6', 'cop')
+('responsible', '0', 'root')
+('for', '8', 'mark')
+('designing', '6', 'advcl')
+('and', '10', 'cc')
+('implementing', '8', 'conj')
+('a', '12', 'det')
+('program', '8', 'obj')
+('for', '14', 'mark')
+('analyzing', '12', 'acl')
+('complex', '21', 'amod')
+(',', '21', 'punct')
+('large', '19', 'amod')
+('-', '19', 'punct')
+('scale', '21', 'compound')
+('data', '21', 'compound')
+('sets', '14', 'obj')
+('used', '21', 'acl')
+('for', '24', 'case')
+('modeling', '22', 'obl')
+(',', '27', 'punct')
+('data', '27', 'compound')
+('mining', '24', 'conj')
+(',', '29', 'punct')
+('research', '24', 'conj')
+(',', '34', 'punct')
+('and', '34', 'cc')
+('predictive', '34', 'amod')
+('analysis', '34', 'compound')
+('purposes', '24', 'conj')
+('.', '6', 'punct')
