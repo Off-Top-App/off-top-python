@@ -45,25 +45,21 @@ def getAllSessions():
 
 @app.route("/insert-session",methods=["POST"])      
 def insertSession():
-    data = request.get_json()
+    # data = request.get_json()
     session_collection = mongo.db.sessions
     
-    new_session = Session( data["user_id"],data["first_received_at"], data["topic"], data["focus_score"],data["transcribed_at"],data["transcribed_speech"])
-    session_collection.insert_one(new_session.__dict__)
-    output = []
-    for session in session_collection.find():
-        print("NEW SESSION OBJECT CREATED: ", session)
-        output.append({
-            '_id': str(session['_id']),
-            "user_id":session["user_id"],
-            "first_received_at": session["first_received_at"],
-            "topic": session["topic"],
-            "focus_score": session["focus_score"],
-            "transcribed_at": session["transcribed_at"],
-            "transcribed_speech": session["transcribed_speech"]
-        })
+    new_session = Session(
+      request.form["user_id"],
+      request.form["first_received_at"], 
+      request.form["topic"], 
+      request.form["focus_score"],
+      request.form["transcribed_at"],
+      request.form["transcribed_speech"]
+    ).__dict__
 
-    return jsonify({'sessions' : output})
+    session_collection.insert_one(new_session)
+    new_session['_id'] = str(new_session['_id'])
+    return jsonify({'new_session' : new_session})
 
 @app.route('/split-words', methods=["POST"])
 def split_words():
