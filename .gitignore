@@ -1,5 +1,6 @@
 .vscode/*
-src/_pychace_/*
+src/__pychace__/*
 src/Services/Spark/__pycache__/*
+src/Models/__pycache__/*
 
 !**/__pycache__/
