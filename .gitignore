@@ -3,3 +3,21 @@ src/_pychace_/*
 src/Services/Spark/__pycache__/*
 
 !**/__pycache__/
+
+stanfordnlp/en_ewt_models/*
+stanfordnlp/nlp-venv/*
+stanfordnlp/stanza_resources/*
+mozilla-deepspeech/deepspeech-models/*
+mozilla-deepspeech/deepspeech-venv/*
+nlp.*
+nlptokenizer.*
+
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
