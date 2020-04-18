@@ -18,13 +18,13 @@ config = {
     'lemma_model_path': './stanza_resources/en/lemma/ewt.pt',
     'ner_model_path': './stanza_resources/en/ner/ontonotes.pt'
 }
+nlp = stanza.Pipeline(**config)
 
 def nlpProcess(task_status):
     with open("output.txt") as output:
         for line in output:
             line= line.strip()
 
-    nlp = stanza.Pipeline(**config)
     doc = nlp(line)
 
     print("Type:", type(doc))
@@ -41,4 +41,4 @@ if __name__ == '__main__':
     scheduler= APScheduler()
     scheduler.add_job(func= nlpProcess, args=['Analyzed Speech.'], trigger= 'interval', id= 'job', seconds= 10)
     scheduler.start()
-    app.run(port= 8000)
+    app.run(port= 6000)
