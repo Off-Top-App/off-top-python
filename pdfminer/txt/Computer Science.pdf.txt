@@ -1,0 +1,188 @@
+1/28/2020
+
+Computer Science, B.S.
+
+Computer Science
+
+Program: B.S., Computer Science
+
+Program Description
+The B.S. degree in Computer Science provides a broad knowledge of computing and is designed for students who desire: (a) to pursue
+graduate work in computer science and (b) to work on the development and support of software projects in a diverse range of specialized
+areas. The Computer Science degree consists of a set of core courses and a 15-unit senior electives package. The core of the program covers
+programming languages, computer system organization, operating systems, data structures, software engineering, computation theory and
+societal implications in computing. The senior electives package allows students to specialize in such fields as artificial intelligence, embedded
+applications, networking, gaming, graphics, software engineering and security.
+
+Program Requirements
+The B.S. in Computer Science program requires a total of 120 units, including General Education requirements, major core courses and a 15-
+unit senior electives package. To graduate, a student must complete a minimum of 18 residency units from the list of upper division required
+courses listed below in addition to all other institutional residency requirements.
+
+Special Grade Requirements
+
+A grade of “C” or better is required in both GE Analytical Reading/Expository Writing and Oral Communication. Carefully check course
+prerequisites as many courses in the major require grades of “C” or better in prerequisite courses.
+
+No grade lower than a “C” will be accepted on transfer from another institution to satisfy Computer Science requirements. Where specific
+grade requirements are not specified, no CSUN grade lower than a “C-” will be accepted for courses required in the Computer Science
+program.
+
+1. Lower Division Required Courses (36 units)
+
+COMP 110/L Introduction to Algorithms and Programming and Lab (3/1)
+COMP 122/L Computer Architecture and Assembly Language and Lab (1/1)
+COMP 182/L Data Structures and Program Design and Lab (3/1)
+COMP 222 Computer Organization (3)
+COMP 256/L Discrete Structures for Computer Science and Lab ( 3/1)
+COMP 282 Advanced Data Structures (3)
+MATH 150A Calculus I (5)
+MATH 150B Calculus II (5)
+MATH 262 Introduction to Linear Algebra (3)
+PHIL 230 Introduction to Formal Logic (3)
+
+2. Lower Division Electives (12-14 units)
+
+a. Select one of the following science sequences (8-10 units)
+
+BIOL 106/BIOL 106L Biological Principles I and Lab (3/1)
+
+and BIOL 107/BIOL 107L Biological Principles II and Lab (3/1)*
+
+CHEM 101/CHEM 101L General Chemistry I and Lab (4/1)
+
+and CHEM 102/CHEM 102L General Chemistry II and Lab (4/1)
+
+PHYS 220A/PHYS 220AL Mechanics and Lab (3/1)
+
+and PHYS 220B/PHYS 220BL Electricity and Magnetism and Lab (3/1)
+
+*BIOL 107/L has recommended prerequisites of CHEM 101 and CHEM 101L.
+
+https://catalog.csun.edu/academics/comp/programs/bs-computer-science/
+
+1/3
+
+1/28/2020
+
+Computer Science, B.S.
+
+b. Select an additional science course with corresponding lab outside of the sequence
+
+selected above (4-5 units)
+
+BIOL 106/BIOL 106L Biological Principles I and Lab (3/1)
+CHEM 101/CHEM 101L General Chemistry I and Lab (4/1)
+GEOG 101/GEOG 102 The Physical Environment and Lab (3/1)
+GEOG 103/GEOG 105 Weather and Lab (3/1)
+GEOL 101/GEOL 102 Geology of Planet Earth and Lab (3/1)
+GEOL 110/GEOL 112 Earth and Life through Time and Lab (3/1)
+PHYS 220A/PHYS 220AL Mechanics and Lab (3/1)
+
+3. Upper Division Required Courses (24 units)
+
+Before taking upper division courses in Computer Science, students must be admitted to the Computer Science major/minor programs, the
+Computer Information Technology major program, the Computer Engineering major program or the Information Systems/Information
+Technology major program.
+
+Note: All students must attempt the Upper Division Writing Proficiency Exam prior to enrolling in any 400-level Computer Science course. The
+Upper Division Writing Proficiency Exam must be passed prior to enrolling in COMP 490/L.
+
+COMP 310 Automata, Languages and Computation (3)
+
+COMP 322/L Introduction to Operating Systems and System Architecture and Lab (3/1)
+
+COMP 333 Concepts of Programming Languages (3)
+
+COMP 380/L Introduction to Software Engineering and Lab (2/1)
+
+COMP 482 Algorithm Design and Analysis (3)
+
+or MATH 482 Combinatorial Algorithms (3)
+
+COMP 490/L Senior Design Project and Lab (3/1)
+
+COMP 491L Senior Project Lab (1)
+
+Select one of the following:
+
+MATH 340 Probability (3)
+MATH 341 Applied Statistics I (3)
+
+4. Upper Division Electives (15 units)
+
+Computer Science majors are required to take 15 units of senior electives.
+
+The senior electives must consist of 15 units of 400- or 500-level courses in Computer Science (not COMP 450, 480/L, 482, 490/L, 491L, 494
+or 499). The electives may include MATH 481A (Numerical Analysis) as 3 of the 15 units.
+
+Requests for taking a 400- or 500-level course as a senior elective that does not meet the requirements stated above must be approved by the
+student’s faculty advisor and by the department chair prior to enrollment in the course.
+
+It is strongly recommended that students discuss their career goals with an advisor prior to selecting their senior electives. The advisor will
+suggest appropriate courses for the student to consider.
+
+5. General Education (48 units)
+
+Undergraduate students must complete 48 units of General Education as described in this Catalog.
+18 units are satisfied by coursework in the major. Completion of the Computer Science major satisfies A3 Critical Thinking. 6 units of Physical
+Science or Life Science may be used to satisfy sections B1-3. MATH 150A satisfies Basic Skills B4 Mathematics/Quantitative Reasoning; COMP
+310 satisfies B5 Scientific Inquiry and Quantitative Reasoning; and COMP 110/L satisfies E Lifelong Learning.
+
+Total Units in the Major: 87-89
+
+General Education Units: 30
+
+Additional Units: 1-3
+
+https://catalog.csun.edu/academics/comp/programs/bs-computer-science/
+
+2/3
+
+1/28/2020
+
+Computer Science, B.S.
+
+Total Units Required for the B.S. Degree: 120
+
+Student Learning Outcomes
+Students who successfully complete the Bachelor of Science program in Computer Science will be able to:
+
+1. Analyze a complex computing problem and apply principles of computing and other relevant disciplines to identify solutions.
+2. Design, implement and evaluate a computing-based solution to meet a given set of computing requirements in the context of the
+program’s discipline.
+3. Communicate effectively in a variety of professional contexts.
+4. Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles.
+5. Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline.
+6. Apply computer science theory and software development fundamentals to produce computing-based solutions.
+
+Contact
+Department of Computer Science
+Chair: Richard Covington
+Jacaranda Hall (JD) 4503
+(818) 677-3398
+
+Degree Road Maps
+Computer Science - 2019
+
+Previous Years
+
+Transfer Road Maps
+Computer Science - 2019
+
+Previous Years
+
+ADT/STAR Act Degree Road Maps
+Students who have graduated with a verified Associate Degree for Transfer and have been admitted to
+a CSUN program that has been deemed similar will be able to complete the baccalaureate degree
+within 60 semester units. For additional information, see ADT/STAR Act Degree Road Maps.
+
+Computer Science - AS-T in Computer Science - 2019
+
+Previous Years
+
+https://catalog.csun.edu/academics/comp/programs/bs-computer-science/
+
+3/3
+
+
