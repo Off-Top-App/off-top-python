@@ -36,7 +36,7 @@ def nlpProcess(task_status):
     print("Full features of text: \n")
     print(*[f'Text: {word.text}\tuPOS: {word.upos}\txPOS: {word.xpos}\tlemma: {word.lemma}\tFeatures: {word.feats if word.feats else "_"}' for sent in doc.sentences for word in sent.words], sep='\n')
     print(task_status, str(datetime.datetime.now()))
-    
+
 if __name__ == '__main__':
     scheduler= APScheduler()
     scheduler.add_job(func= nlpProcess, args=['Analyzed Speech.'], trigger= 'interval', id= 'job', seconds= 10)
