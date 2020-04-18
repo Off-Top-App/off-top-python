@@ -11,7 +11,7 @@ mozilla-deepspeech/deepspeech-models/*
 mozilla-deepspeech/deepspeech-venv/*
 nlp.*
 nlptokenizer.*
-
+sportDatasetGen.*
 
 *.7z
 *.dmg
