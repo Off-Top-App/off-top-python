@@ -4,3 +4,22 @@ src/Services/Spark/__pycache__/*
 src/Models/__pycache__/
 
 !**/__pycache__/
+
+stanfordnlp/en_ewt_models/*
+stanfordnlp/nlp-venv/*
+stanfordnlp/stanza_resources/*
+mozilla-deepspeech/deepspeech-models/*
+mozilla-deepspeech/deepspeech-venv/*
+mozilla-deepspeech/my-venv/*
+nlp.*
+nlptokenizer.*
+sportDatasetGen.*
+
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
