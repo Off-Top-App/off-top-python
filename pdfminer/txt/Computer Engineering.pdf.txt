@@ -1,0 +1,265 @@
+1/28/2020
+
+Computer Engineering, B.S.
+
+Electrical and Computer Engineering
+
+Program: B.S., Computer Engineering
+
+Program Description
+
+“Nowadays the world is lit by lightning,” playwright Tennessee Williams wrote. But electrical and computer engineers prove him wrong every
+day.
+
+From city lights to satellites, semiconductors, telephone switching systems and audio equipment, their work depends on electricity and the
+engineers who design and develop ways to harness its power.
+
+The Computer Engineering (CompE) program bridges the curriculum gap between Computer Science and Electrical Engineering. Computer
+Engineers deal with the hardware and software aspects of computer system design and development. The CompE curriculum contains
+components of both the Computer Science and Electrical Engineering programs.
+
+Computer Engineering majors receive a broad knowledge in the basic curriculum. Among the many covered topics are mathematics, physics,
+chemistry, biology, electrical circuits, engineering economics, algorithms, programming and computer organization. Computer Engineering
+students will take coursework in a number of areas (i.e., computer architecture, digital design) from both the software and hardware points of
+view, allowing a broader, more complete exposure to the subject. Additionally, these curricula will be unified in the one year senior design
+project course bringing together the existing Electrical and Computer Engineering and Computer Science programs.
+
+The ECE department has 17 labs associated with its ECE classes. In the labs, students work alongside professors who may be designing medical
+instrumentation for healthcare, designing microcontroller-based applications, developing pager and satellite communications systems, or
+working on innovations in electrical power systems.
+
+All students in the EE or CompE programs take part in the department’s senior design program, modeled on industry work groups that
+students will encounter on the job. Like professional engineers, students design and develop a project from conception through manufacture.
+In the process, they gain valuable experience in working as a team and dealing with personalities, as well as technical areas.
+
+Senior design projects have included national intercollegiate competitions. Students compete in designing a micromouse and training it to run
+through a 10-square-foot maze. Students also work on interdisciplinary teams to design, build, program and test an unmanned autonomous
+helicopter. Other projects include developing a sophisticated stereo system, a control system for a satellite tracking antenna, a television
+tuner, fabrication of a hybrid circuit, software-defined radio, etc.
+
+Program Requirements
+
+The Computer Engineering program is based on an expectation of adequate high school preparation in science, mathematics and English.
+High school courses should include algebra, plane geometry, trigonometry, chemistry or physics (all desirable), and four years of English.
+
+CSUN provides the opportunity for students who have not had a complete background of pre-engineering work in high school to take courses
+to prepare for the major. These additional courses will not count toward the major and may increase the time to graduate. CSUN provides
+testing as outlined below to ensure that students start their engineering coursework at an appropriate level.
+
+Placement Exam Requirements
+
+1. The Mathematics Placement Test (MPT) is required prior to enrollment in MATH 150A. Students should take this exam before enrolling in
+their classes so they may be placed in the appropriate mathematics course. Students with scores of 4 or 5 on the AP Calculus AB or BC tests
+are exempt from the MPT.
+2. If Computer Engineering majors elect to take CHEM 101 to satisfy their science elective requirement, the Chemistry Placement Test (CPT)
+is required with a score of 40 or higher prior to enrolling in CHEM 101. Students who have had high school chemistry and expect to enroll in
+CHEM 101 must take this test regardless of their score on the AP Chemistry exam. Students who do not receive this CPT score must receive
+a grade of “C” or better in CHEM 100 before taking CHEM 101.
+
+Special Grade Requirements
+
+1. All students must complete the lower division writing requirement before enrolling in 300-level engineering courses.
+2. All students must attempt the Upper Division Writing Proficiency Exam before enrolling in 400-level engineering courses.
+3. A grade of “C-” or better is required in all courses in the major. A grade of “C” or better is required in all undergraduate transfer courses.
+4. Senior-level courses cannot be taken unless the student previously completed or is concurrently completing all freshman-, sophomore-
+and junior-level core requirements.
+5. A grade of “C” or higher is necessary in MATH 150B to meet the prerequisite requirements for the next-level math courses.
+
+https://catalog.csun.edu/academics/ece/programs/bs-computer-engineering/
+
+1/4
+
+1/28/2020
+
+Computer Engineering, B.S.
+
+Course Requirements
+
+The Computer Engineering program requires a minimum of 123 units total, including General Education requirements of 27 units, a Computer
+Engineering core of 90 units and a minimum of 6 units of an approved elective. Computer Engineering majors must complete a minimum of
+30 semester units of upper division Computer Engineering courses in residency, including Senior Design Project I and II.
+
+Additional information about this program and its facilities, faculty and students can be found on the Department of Electrical and Computer
+Engineering website.
+
+1. Lower Division Required Courses (39 units)
+
+Freshman Year
+
+COMP 110/L Introduction to Algorithms and Programming and Lab (3/1)
+COMP 182/L Data Structures and Program Design and Lab (3/1)
+MATH 150A Calculus I (5)
+MATH 150B Calculus II (5)
+PHYS 220A Mechanics (3)
+PHYS 220AL Mechanics Lab (1)
+
+Sophomore Year
+
+COMP 282 Advanced Data Structures (3)
+
+ECE 240 Electrical Engineering Fundamentals (3)
+
+ECE 240L Electrical Engineering Fundamentals Lab (1)
+
+MATH 250 Calculus III (3)
+
+MATH 280 Applied Differential Equations (3)
+
+or ECE 280 Applied Differential Equations (3)
+
+PHYS 220B Electricity and Magnetism (3)
+
+PHYS 220BL Electricity and Magnetism Lab (1)
+
+2. Math and Science Electives (6 units)
+
+Select a minimum of 6 units from the following list with corresponding lab if one exists:
+
+BIOL 106 Biological Principles I (3)
+BIOL 106L Biological Principles I Lab (1)
+BIOL 107 Biological Principles II (3)
+BIOL 107L Biological Principles II Lab (1)
+CHEM 101 General Chemistry I (4)
+CHEM 101L General Chemistry I Lab (1)
+CHEM 102 General Chemistry II (4)
+CHEM 102L General Chemistry II Lab (1)
+MATH 262 Introduction to Linear Algebra (3)
+MATH 326 Discrete Mathematics (3)
+PHYS 227 Physics III (4)
+PHYS 227L Physics III Lab (1)
+PHYS 375 Quantum Physics I (3)
+
+3. Upper Division Required Courses (39 units)
+
+Note: All students must complete the lower division writing requirements before enrolling in any 300-level course in the major and must
+attempt the Upper Division Writing Proficiency Exam before the completion of 75 units or enrolling in any 400-level course in the major. If
+students fail to do so, a hold is placed on their subsequent class registration and this may delay their graduation.
+
+Junior Year
+
+ECE 309 Numerical Methods in Electrical Engineering (2)
+ECE 320/L Theory of Digital Systems and Lab (3/1)
+ECE 340/L Electronics I and Lab (3/1)
+
+https://catalog.csun.edu/academics/ece/programs/bs-computer-engineering/
+
+2/4
+
+1/28/2020
+
+Computer Engineering, B.S.
+
+ECE 350 Linear Systems I (3)
+ECE 351 Linear Systems II (3)
+MSE 304 Engineering Economy (3)
+
+Senior Year
+
+The senior year must include a capstone design experience and additional courses with design content so that the student’s total engineering
+program contains at least one semester of engineering design. This engineering design requirement must be taken in residency. An advisor and
+the department chair must approve all senior year electives.
+
+ECE 420 Digital Systems Design with Programmable Logic (3)
+ECE 422 Design of Digital Computers (3)
+ECE 425/L Microprocessor Systems and Lab (3/1)
+ECE 442/L Digital Electronics and Lab (3/1)
+ECE 450 Probabilistic Systems in Electrical Engineering Design and Analysis (3)
+ECE 492/ECE 493 Senior Design Project I and II (2/1)
+
+4. Upper Division Electives (12 units)
+
+Select a minimum of 12 units from the following:
+
+COMP 322/L Introduction to Operating Systems and System Architecture and Lab (3/1)
+COMP 380/L Introduction to Software Engineering (2/1)
+COMP 424 Computer System Security (3)
+COMP 429 Computer Network Software (3)
+COMP 529/L Advanced Network Topics and Lab (2/1)
+COMP 581 Open Source Software (3)
+COMP 598EA Embedded Applications
+COMP 598NSP Network and Systems Deployment (3)
+ECE 422L Design of Digital Computers Lab (1)
+ECE 443/L Pulse and Wave Shaping Circuit Design and Lab (3/1)
+ECE 520/ECE 520L System on Chip Design and Lab (3/1)
+ECE 524/ECE 524L FPGA/ASIC Design and Optimization Using VHDL and Lab (3/1)
+ECE 526/L Digital Design with Verilog and System Verilog and Lab (3/1)
+ECE 527/ECE 527L Application Specific Integrated Circuit Development and Lab (3/1)
+ECE 546 Very Large Scale Integrated Circuit Design (3)
+ECE 562 Data Communication Network (3)
+
+Note: Some elective courses have prerequisites that are not part of the required program. All courses must include the lab, if one exists. Other
+courses may be selected with the approval of the ECE department chair. The total number of units in the major is 96.
+
+5. General Education (48 units)
+
+Undergraduate students must complete 48 units of General Education as described in this Catalog.
+21 units are satisfied by coursework in the major. Completion of the Computer Engineering major satisfies A3 Critical Thinking. 6 units of
+Physical Science may be used to satisfy sections B1-3. MATH 150A satisfies Basic Skills B4 Mathematics/Quantitative Reasoning; ECE 340
+satisfies B5 Scientific Inquiry and Quantitative Reasoning; MSE 304 satisfies 3 units of upper division D1 Social Science; and COMP 110/L
+satisfies E Lifelong Learning.
+
+Total Units in the Major: 96
+
+General Education Units: 27
+
+Total Units Required for the Degree: 123
+
+Contact
+
+Department of Electrical and Computer Engineering
+Chair: Sembiam Rengarajan
+Jacaranda Hall (JD) 4509
+(818) 677-2190
+
+https://catalog.csun.edu/academics/ece/programs/bs-computer-engineering/
+
+3/4
+
+1/28/2020
+
+Computer Engineering, B.S.
+
+Student Learning Outcomes
+
+Educational Objectives
+
+The computer engineering program at California State University, Northridge, prepares a diverse group of graduates for lifelong careers in
+a field that will allow them to make productive contributions to society and to find personal satisfaction in their work. To accomplish this,
+graduates of the computer engineering programs will meet the following educational objectives:
+
+1. Have professional careers in computer engineering or related technical fields, or continue their studies at the graduate level.
+2. Continue their professional development throughout their careers.
+
+Student Outcomes
+
+Graduates will have an ability to:
+
+1. Identify, formulate and solve complex engineering problems by applying principles of knowledge of engineering, science and
+mathematics.
+2. Apply the engineering design process to produce solutions that meet specified needs with consideration for public health and safety, and
+global, cultural, social, environmental, economic and other factors as appropriate to the discipline.
+3. Develop and conduct appropriate experimentation, analyze and interpret data, and use engineering judgment to draw conclusions.
+4. Communicate effectively with a range of audiences.
+5. Recognize ethical and professional responsibilities in engineering situations and make informed judgments, which must consider the
+impact of engineering solutions in global, economic, environmental and societal contexts.
+6. Recognize the ongoing need to acquire new knowledge, to choose appropriate learning strategies, and to apply this knowledge.
+7. Function effectively as a member or leader of a team that establishes goals, plan tasks, meets deadlines, and creates a collaborative and
+inclusive environment.
+
+Degree Road Maps
+
+Computer Engineering - 2019
+
+Previous Years
+
+Transfer Road Maps
+
+Computer Engineering - 2019
+
+Previous Years
+
+https://catalog.csun.edu/academics/ece/programs/bs-computer-engineering/
+
+4/4
+
+

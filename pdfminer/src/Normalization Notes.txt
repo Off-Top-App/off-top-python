@@ -1,0 +1,23 @@
+(cid:2) = X (multiplication operator), maybe replace with phrase "by"?
+(cid:12) = fi
+(cid:11) = ff
+
+
+need to remove stuff like : 
+
+  (/), { (		)
+
+
+remove white spaces
+
+should start new line after every period for easy reading?
+
+remove email addresses (do this before start of new line due to periods)?
+
+remove words like: the, and, in, it, etc. 
+
+remove non-words and symbols
+
+
+RUNS INTO ERROR:
+charmap' codec can't encode character '\uf0b7' 

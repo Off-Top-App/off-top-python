@@ -1,10 +1,12 @@
 import io
+import sys
+sys.path.append("C:/Users/nico/Desktop/Off-Top/off-top-python/pdfminer/__pycache__")
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
 import os
-import sys, getopt
+import getopt
 
 #converts pdf, returns its text content as a string
 def convert(fname, pages=None):
@@ -38,6 +40,6 @@ def convertMultiple(pdfDir, txtDir):
             textFile = open(textFilename, "w") #make text file
             textFile.write(text) #write text to text file
 
-pdfDir = "/home/smikaelian/Documents/OFF-TOP/off-top-python/pdfminer/pdf/"
-txtDir = "/home/smikaelian/Documents/OFF-TOP/off-top-python/pdfminer/txt/"
+pdfDir = "C:/Users/nico/Desktop/Off-Top/off-top-python/pdfminer/pdf/"
+txtDir = "C:/Users/nico/Desktop/Off-Top/off-top-python/pdfminer/txt/"
 convertMultiple(pdfDir, txtDir)

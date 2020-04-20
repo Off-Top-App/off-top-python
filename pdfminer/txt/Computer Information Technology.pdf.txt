@@ -1,0 +1,193 @@
+1/28/2020
+
+Computer Information Technology, B.S.
+
+Computer Science
+
+Program: B.S., Computer Information Technology
+
+Program Description
+
+The B.S. degree in Computer Information Technology (CIT) is designed for students who are interested in a professional career that involves
+solving the informational technology infrastructure needs of companies and organizations. An IT professional is able to understand computer
+systems and solve the computer-related problems of the people they serve. An IT professional assumes responsibility for selecting, installing
+and maintaining hardware and software products to meet organizational culture and needs. The Computer Information Technology degree
+consists of a set of core requirements plus a Domain Emphasis Package that is effectively a minor in another field of study. The program
+focuses on the technology and service aspects of the industry rather than information content. Graduates of the program will have an applied
+knowledge of such fields as web programming, system infrastructure, databases, networking, e-business, project management, data center
+management, security and information assurance.
+
+Program Requirements
+
+The B.S. in Computer Information Technology program requires a total of 120 units, including General Education requirements, major core
+courses and a 15-unit sequence of elective courses referred to below as the Domain Emphasis Package. To graduate, a student must complete
+a minimum of 18 residency units from the list of upper division required courses listed below in addition to all other institutional residency
+requirements.
+
+Special Grade Requirements
+
+No grade lower than a “C” will be accepted on transfer from another institution to satisfy the graduation requirements in Information
+Technology. Where specific grade requirements are not specified, no CSUN grade lower than a “C-” will be accepted for courses required in
+the B.S. CIT program.
+
+1. Lower Division Required Courses (24 units)
+
+CIT 101/L CIT Fundamentals (2/1)
+CIT 160/L Internet Technologies (2/1)
+CIT 210/L Deployment and Management of Operating Systems (3/1)
+CIT 270/L Integrative Programming (3/1)
+COMP 110/L Introduction to Algorithms and Programming with Lab (3/1)
+COMP 122/L Computer Architecture and Assembly Language and Lab (1/1)
+COMP 182/L Data Structures and Program Design and Lab (3/1)
+
+2. Lower Division Electives (14-19 units)
+
+a. Math Course (3-5 units)
+
+Select one of the following courses:
+
+MATH 103 Mathematical Methods for Business (3)
+MATH 150A Calculus I (5)
+MATH 255A Calculus for the Life Sciences I (3)
+
+b. Statistics Course (3-4 units)
+
+Select one of the following courses:
+
+MATH 140 Introductory Statistics (4)
+SOM 120 Basic Business Statistics (3)
+
+c. Science Courses (8-10 units)
+
+https://catalog.csun.edu/academics/comp/programs/bs-computer-information-technology/
+
+1/3
+
+1/28/2020
+
+Computer Information Technology, B.S.
+
+Select one of the following sequences:
+
+BIOL 106/BIOL 106L Biological Principles I and Lab (3/1)
+
+and BIOL 107/BIOL 107L Biological Principles II and Lab (3/1)
+
+CHEM 101/CHEM 101L General Chemistry I and Lab (4/1)
+
+and CHEM 102/CHEM 102L General Chemistry II and Lab (4/1)
+
+GEOG 101/GEOG 102 The Physical Environment and Lab (3/1)
+
+and GEOG 103/GEOG 105 Weather and Lab (3/1)
+
+GEOL 101/GEOL 102 Geology of Planet Earth and Lab (3/1)
+
+and GEOL 110/GEOL 112 Earth and Life Through Time and Lab (3/1)
+
+PHYS 100A/PHYS 100AL General Physics I and Lab (3/1)
+
+and ASTR 152/ASTR 154L Elementary Astronomy and Lab (3/1)
+
+PHYS 220A/PHYS 220AL Mechanics and Lab (3/1)
+
+and PHYS 220B/PHYS 220BL Electricity and Magnetism and Lab (3/1)
+
+3. Upper Division Required Courses (33 units)
+
+CIT 360/L CIT System Management and Lab (2/1)
+CIT 384/L Web Development and Hosting and Lab (2/1)
+CIT 425/L Information and Systems Security and Lab (2/1)
+CIT 480/L CIT System Design and Implementation I (2/1)
+CIT 481/L CIT System Design and Implementation II (2/1)
+COMP 485 Human-Computer Interaction (3)
+IS 312 Systems and Technologies for Managers (3)
+IS 431 System Analysis and Design (3)
+IS 435 Business Data Communications and Networking (3)
+IS 441 Database Management Systems (3)
+IS 451 Enterprise Systems and Project Management (3)
+
+4. Domain Emphasis Package (15-18 units)
+
+Computer Information Technology is pervasive and its use is found throughout nearly all areas of human endeavor. A major objective of the
+B.S. CIT program is to prepare graduates to work effectively with individuals from other disciplines and to apply information technology (IT) to
+these disciplines. To this end, students in the B.S. CIT program are required to engage in an in-depth study of some subject that uses
+computing in a substantive way and that emphasizes collaboration and communication with other individuals.
+
+This requirement can be satisfied by completion of one of the following:
+
+a. Completion of an appropriate minor at CSUN that does not include courses offered by the Department of Computer Science or the
+College of Business and Economics. The intent of the minor is to focus studies in an application domain in which the graduate plans to start
+a career. Students interested in focusing their studies on business are advised to explore the Information Systems degree options offered by
+the Department of Accounting and Information Systems. A minor must consist of at least 18 units, but some requirements in a minor might
+also be applied toward meeting General Education requirements.
+b. Completion of a cohesive set of classes, called the Domain Emphasis Package, determined though consultation with the student’s faculty
+advisor and requiring approval by the department chair prior to enrollment in any course contained in the package. This package should
+focus on a specific IT or application domain. Such a package shall consist of 15 units, with no more than 6 units of lower division classes
+chosen strategically to meet the prerequisites of the other classes also included in the package. The package cannot contain courses
+offered by the College of Business and Economics.
+
+By the time COMP 110/L is completed, B.S. CIT majors must meet with a faculty advisor to determine the classes in a customized domain
+emphasis package or to select a minor to fulfill the Domain Emphasis requirement.
+
+5. General Education (48 units)
+
+Undergraduate students must complete 48 units of General Education as described in this Catalog.
+18 units are satisfied by coursework in the major. Completion of the Computer Information Technology major satisfies A3 Critical Thinking. 6
+units of Physical Science or Life Science may be used to satisfy sections B1-3. MATH 103 or MATH 150A or MATH 255A satisfies Basic Skills B4
+Mathematics/Quantitative Reasoning; CIT 360/L satisfies B5 Scientific Inquiry and Quantitative Reasoning; and COMP 110/L satisfies E Lifelong
+Learning.
+
+Total Units in the Major: 86-94
+
+https://catalog.csun.edu/academics/comp/programs/bs-computer-information-technology/
+
+2/3
+
+1/28/2020
+
+Computer Information Technology, B.S.
+
+General Education Units: 30
+
+Additional Units: 0-4
+
+Total Units Required for the B.S. Degree: 120-124
+
+Contact
+
+Department of Computer Science
+Chair: Richard Covington
+Jacaranda Hall (JD) 4503
+(818) 677-3398
+
+Student Learning Outcomes
+
+Students graduating from the B.S. CIT program will be able to:
+
+1. Analyze a complex computing problem and apply principles of computing and other relevant disciplines to identify solutions.
+2. Design, implement and evaluate a computing-based solution to meet a given set of computing requirements in the context of the
+program’s discipline.
+3. Communicate effectively in a variety of professional contexts.
+4. Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles.
+5. Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline.
+6. Identify and analyze user needs and to take them into account in the selection, creation, integration, evaluation and administration of
+computing-based systems.
+
+Degree Road Maps
+
+Computer Information Technology - 2019
+
+Previous Years
+
+Transfer Road Maps
+
+Computer Information Technology - 2019
+
+Previous Years
+
+https://catalog.csun.edu/academics/comp/programs/bs-computer-information-technology/
+
+3/3
+
+

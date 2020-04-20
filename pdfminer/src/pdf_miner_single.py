@@ -1,5 +1,7 @@
 #from cStringIO import StringIO
 import io
+import sys
+sys.path.append("C:/Users/nico/Desktop/Off-Top/off-top-python/pdfminer/__pycache__")
 from pdfminer.converter import TextConverter
 from pdfminer.pdfinterp import PDFPageInterpreter
 from pdfminer.pdfinterp import PDFResourceManager
