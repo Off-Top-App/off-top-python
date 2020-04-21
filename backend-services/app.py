@@ -59,17 +59,5 @@ def insertSession():
     new_session['_id'] = str(new_session['_id'])
     return jsonify({'new_session' : new_session})
 
-@app.route('/split-words', methods=["POST"])
-def split_words():
-  words = request.form.get("words")
-  return split_words_service(words)
-
-@app.route("/sparkpi", methods=["GET"])
-def sparkpi():
-    scale = int(request.args.get('scale', 2))
-    pi = produce_pi_service(scale)
-    response = "Pi is roughly {}".format(pi)
-    return response
-
 if __name__ == "__main__":
   app.run(debug=True)
