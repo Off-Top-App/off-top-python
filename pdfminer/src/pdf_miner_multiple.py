@@ -25,19 +25,19 @@ def convert(fname, pages=None):
     converter.close()
     text = output.getvalue()
     output.close
-    return text 
-   
+    return text
+
 def convertMultiple(pdfDir, txtDir):
     if pdfDir == "": pdfDir = os.getcwd() + "\\" #if no pdfDir passed in
     for pdf in os.listdir(pdfDir): #iterate through pdfs in pdf directory
         fileExtension = pdf.split(".")[-1]
         if fileExtension == "pdf":
-            pdfFilename = pdfDir + pdf 
+            pdfFilename = pdfDir + pdf
             text = convert(pdfFilename) #get string of text content of pdf
             textFilename = txtDir + pdf + ".txt"
             textFile = open(textFilename, "w") #make text file
             textFile.write(text) #write text to text file
 
-pdfDir = "/home/smikaelian/Documents/OFF-TOP/off-top-python/pdfminer/pdf/"
-txtDir = "/home/smikaelian/Documents/OFF-TOP/off-top-python/pdfminer/txt/"
+pdfDir="C:/Users/smika/Desktop/CSUN/COMP 490/OFF-TOP [Final Senior Design Project]/Python/Flask/off-top-python/pdfminer/pdf"
+txtDir="C:/Users/smika/Desktop/CSUN/COMP 490/OFF-TOP [Final Senior Design Project]/Python/Flask/off-top-python/pdfminer/txt"
 convertMultiple(pdfDir, txtDir)

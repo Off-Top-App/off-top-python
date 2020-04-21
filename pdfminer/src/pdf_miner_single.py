@@ -28,11 +28,10 @@ def convert(fname, pages=None):
     return text
 
 
-pdfFile= "sc.pdf"
+pdfFile= "computer_science.pdf"
 minedText = convert(pdfFile)
 print(minedText)
 
 textFname= pdfFile + ".txt"
 textF= open(textFname, "w")
 textF.write(minedText)
-
