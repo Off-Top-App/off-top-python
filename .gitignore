@@ -4,8 +4,6 @@ src/Services/Spark/__pycache__/*
 src/Models/__pycache__/
 !**/__pycache__/
 
-mozilla-deepspeech/
-stanfordnlp/
 venv/*
 my-venv/*
 stanfordnlp/en_ewt_models/*
