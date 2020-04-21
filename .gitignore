@@ -4,7 +4,7 @@ src/Services/Spark/__pycache__/*
 src/Models/__pycache__/
 !**/__pycache__/
 
-venv/*
+my-venv/*
 stanfordnlp/en_ewt_models/*
 stanfordnlp/nlp-venv/*
 stanfordnlp/stanza_resources/*
