@@ -6,7 +6,6 @@ from flask_pymongo import PyMongo
 from flask.templating import render_template
 from Models.Session import Session
 from Models.UserSession import UserSession
-from Services.Spark.sparkServices import produce_pi_service, split_words_service
 app= Flask(__name__)
 # connect to MongoDB with the defaults
 #@app.route(..) is a decorator. A decorator is a function that takes another function and extends the behavior of the latter function without explicitly modifying it.
