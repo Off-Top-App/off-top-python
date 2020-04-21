@@ -1,5 +1,6 @@
 import os
 import deepspeech
+import deepspeech-gpu
 
 def transcribeData():
     os.system('cmd /k "deepspeech --model deepspeech-models/output_graph.pbmm --audio audio/off-top-test.wav > output.txt"')
