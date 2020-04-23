@@ -5,3 +5,4 @@ src/Services/Spark/__pycache__/*
 !**/__pycache__/
 
 venv/*
+my-venv/*

@@ -29,6 +29,7 @@ def Producer():
         load_data = json.dumps(data)
         producer.send('outgoingFocusScore',load_data)
         producer.flush()
+        print(load_data)
         sleep(10)
      
 def main():
