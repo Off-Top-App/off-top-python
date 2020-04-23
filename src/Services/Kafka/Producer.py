@@ -7,7 +7,6 @@ from time import sleep
 import logging
 
 
-
 def Producer():
     producer = KafkaProducer(
         bootstrap_servers=['localhost:9092'],   
