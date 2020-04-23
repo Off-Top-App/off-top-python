@@ -5,9 +5,6 @@ src/Models/__pycache__/
 !**/__pycache__/
 
 venv/*
-<<<<<<< HEAD
-my-venv/*
-=======
 my-venv/*
 stanfordnlp/en_ewt_models/*
 stanfordnlp/nlp-venv/*
@@ -27,4 +24,3 @@ sportDatasetGen.*
 *.rar
 *.tar
 *.zip
->>>>>>> master
