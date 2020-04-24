@@ -30,7 +30,7 @@ def Producer():
         producer.send('outgoingFocusScore',load_data)
         producer.flush()
         print(load_data)
-        sleep(10)
+        sleep(2)
      
 def main():
     Producer()
