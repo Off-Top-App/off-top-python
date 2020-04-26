@@ -2,7 +2,7 @@
 .vscode/*
 backend-services/__pychace__/*
 backend-services/Services/Spark/__pycache__/*
-backend-services/Models/__pycache__/
+backend-services/Models/__pycache__/*
 
 !**/__pycache__/
 

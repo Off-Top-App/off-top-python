@@ -7,10 +7,6 @@ Computer Science
 Program: B.S., Computer Science
 
 Program Description
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 The B.S. degree in Computer Science provides a broad knowledge of computing and is designed for students who desire: (a) to pursue
 graduate work in computer science and (b) to work on the development and support of software projects in a diverse range of specialized
 areas. The Computer Science degree consists of a set of core courses and a 15-unit senior electives package. The core of the program covers
@@ -19,21 +15,17 @@ societal implications in computing. The senior electives package allows students
 applications, networking, gaming, graphics, software engineering and security.
 
 Program Requirements
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 The B.S. in Computer Science program requires a total of 120 units, including General Education requirements, major core courses and a 15-
 unit senior electives package. To graduate, a student must complete a minimum of 18 residency units from the list of upper division required
 courses listed below in addition to all other institutional residency requirements.
 
 Special Grade Requirements
 
-A grade of “C” or better is required in both GE Analytical Reading/Expository Writing and Oral Communication. Carefully check course
-prerequisites as many courses in the major require grades of “C” or better in prerequisite courses.
+A grade of ï¿½Cï¿½ or better is required in both GE Analytical Reading/Expository Writing and Oral Communication. Carefully check course
+prerequisites as many courses in the major require grades of ï¿½Cï¿½ or better in prerequisite courses.
 
-No grade lower than a “C” will be accepted on transfer from another institution to satisfy Computer Science requirements. Where specific
-grade requirements are not specified, no CSUN grade lower than a “C-” will be accepted for courses required in the Computer Science
+No grade lower than a ï¿½Cï¿½ will be accepted on transfer from another institution to satisfy Computer Science requirements. Where specific
+grade requirements are not specified, no CSUN grade lower than a ï¿½C-ï¿½ will be accepted for courses required in the Computer Science
 program.
 
 1. Lower Division Required Courses (36 units)
@@ -125,7 +117,7 @@ The senior electives must consist of 15 units of 400- or 500-level courses in Co
 or 499). The electives may include MATH 481A (Numerical Analysis) as 3 of the 15 units.
 
 Requests for taking a 400- or 500-level course as a senior elective that does not meet the requirements stated above must be approved by the
-student’s faculty advisor and by the department chair prior to enrollment in the course.
+studentï¿½s faculty advisor and by the department chair prior to enrollment in the course.
 
 It is strongly recommended that students discuss their career goals with an advisor prior to selecting their senior electives. The advisor will
 suggest appropriate courses for the student to consider.
@@ -153,33 +145,17 @@ Computer Science, B.S.
 
 Total Units Required for the B.S. Degree: 120
 
-<<<<<<< HEAD
-Contact
-
-Department of Computer Science
-Chair: Richard Covington
-Jacaranda Hall (JD) 4503
-(818) 677-3398
-
 Student Learning Outcomes
-
-=======
-Student Learning Outcomes
->>>>>>> master
 Students who successfully complete the Bachelor of Science program in Computer Science will be able to:
 
 1. Analyze a complex computing problem and apply principles of computing and other relevant disciplines to identify solutions.
 2. Design, implement and evaluate a computing-based solution to meet a given set of computing requirements in the context of the
-program’s discipline.
+programï¿½s discipline.
 3. Communicate effectively in a variety of professional contexts.
 4. Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles.
-5. Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline.
+5. Function effectively as a member or leader of a team engaged in activities appropriate to the programï¿½s discipline.
 6. Apply computer science theory and software development fundamentals to produce computing-based solutions.
 
-<<<<<<< HEAD
-Degree Road Maps
-
-=======
 Contact
 Department of Computer Science
 Chair: Richard Covington
@@ -187,16 +163,11 @@ Jacaranda Hall (JD) 4503
 (818) 677-3398
 
 Degree Road Maps
->>>>>>> master
 Computer Science - 2019
 
 Previous Years
 
 Transfer Road Maps
-<<<<<<< HEAD
-
-=======
->>>>>>> master
 Computer Science - 2019
 
 Previous Years
