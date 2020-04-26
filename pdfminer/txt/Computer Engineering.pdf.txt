@@ -7,7 +7,7 @@ Electrical and Computer Engineering
 Program: B.S., Computer Engineering
 
 Program Description
-“Nowadays the world is lit by lightning,” playwright Tennessee Williams wrote. But electrical and computer engineers prove him wrong every
+ï¿½Nowadays the world is lit by lightning,ï¿½ playwright Tennessee Williams wrote. But electrical and computer engineers prove him wrong every
 day.
 
 From city lights to satellites, semiconductors, telephone switching systems and audio equipment, their work depends on electricity and the
@@ -27,7 +27,7 @@ The ECE department has 17 labs associated with its ECE classes. In the labs, stu
 instrumentation for healthcare, designing microcontroller-based applications, developing pager and satellite communications systems, or
 working on innovations in electrical power systems.
 
-All students in the EE or CompE programs take part in the department’s senior design program, modeled on industry work groups that
+All students in the EE or CompE programs take part in the departmentï¿½s senior design program, modeled on industry work groups that
 students will encounter on the job. Like professional engineers, students design and develop a project from conception through manufacture.
 In the process, they gain valuable experience in working as a team and dealing with personalities, as well as technical areas.
 
@@ -52,16 +52,16 @@ are exempt from the MPT.
 2. If Computer Engineering majors elect to take CHEM 101 to satisfy their science elective requirement, the Chemistry Placement Test (CPT)
 is required with a score of 40 or higher prior to enrolling in CHEM 101. Students who have had high school chemistry and expect to enroll in
 CHEM 101 must take this test regardless of their score on the AP Chemistry exam. Students who do not receive this CPT score must receive
-a grade of “C” or better in CHEM 100 before taking CHEM 101.
+a grade of ï¿½Cï¿½ or better in CHEM 100 before taking CHEM 101.
 
 Special Grade Requirements
 
 1. All students must complete the lower division writing requirement before enrolling in 300-level engineering courses.
 2. All students must attempt the Upper Division Writing Proficiency Exam before enrolling in 400-level engineering courses.
-3. A grade of “C-” or better is required in all courses in the major. A grade of “C” or better is required in all undergraduate transfer courses.
+3. A grade of ï¿½C-ï¿½ or better is required in all courses in the major. A grade of ï¿½Cï¿½ or better is required in all undergraduate transfer courses.
 4. Senior-level courses cannot be taken unless the student previously completed or is concurrently completing all freshman-, sophomore-
 and junior-level core requirements.
-5. A grade of “C” or higher is necessary in MATH 150B to meet the prerequisite requirements for the next-level math courses.
+5. A grade of ï¿½Cï¿½ or higher is necessary in MATH 150B to meet the prerequisite requirements for the next-level math courses.
 
 https://catalog.csun.edu/academics/ece/programs/bs-computer-engineering/
 
@@ -153,7 +153,7 @@ MSE 304 Engineering Economy (3)
 
 Senior Year
 
-The senior year must include a capstone design experience and additional courses with design content so that the student’s total engineering
+The senior year must include a capstone design experience and additional courses with design content so that the studentï¿½s total engineering
 program contains at least one semester of engineering design. This engineering design requirement must be taken in residency. An advisor and
 the department chair must approve all senior year electives.
 
@@ -184,8 +184,6 @@ ECE 526/L Digital Design with Verilog and System Verilog and Lab (3/1)
 ECE 527/ECE 527L Application Specific Integrated Circuit Development and Lab (3/1)
 ECE 546 Very Large Scale Integrated Circuit Design (3)
 ECE 562 Data Communication Network (3)
-
-Total Units in the Major: 96
 
 General Education Units: 27
 
