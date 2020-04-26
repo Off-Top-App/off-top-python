@@ -7,7 +7,10 @@ Computer Science
 Program: B.S., Computer Information Technology
 
 Program Description
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 The B.S. degree in Computer Information Technology (CIT) is designed for students who are interested in a professional career that involves
 solving the informational technology infrastructure needs of companies and organizations. An IT professional is able to understand computer
 systems and solve the computer-related problems of the people they serve. An IT professional assumes responsibility for selecting, installing
@@ -18,7 +21,10 @@ knowledge of such fields as web programming, system infrastructure, databases, n
 management, security and information assurance.
 
 Program Requirements
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 The B.S. in Computer Information Technology program requires a total of 120 units, including General Education requirements, major core
 courses and a 15-unit sequence of elective courses referred to below as the Domain Emphasis Package. To graduate, a student must complete
 a minimum of 18 residency units from the list of upper division required courses listed below in addition to all other institutional residency
@@ -154,6 +160,7 @@ Additional Units: 0-4
 
 Total Units Required for the B.S. Degree: 120-124
 
+<<<<<<< HEAD
 Contact
 
 Department of Computer Science
@@ -163,6 +170,9 @@ Jacaranda Hall (JD) 4503
 
 Student Learning Outcomes
 
+=======
+Student Learning Outcomes
+>>>>>>> master
 Students graduating from the B.S. CIT program will be able to:
 
 1. Analyze a complex computing problem and apply principles of computing and other relevant disciplines to identify solutions.
@@ -174,14 +184,27 @@ program’s discipline.
 6. Identify and analyze user needs and to take them into account in the selection, creation, integration, evaluation and administration of
 computing-based systems.
 
+<<<<<<< HEAD
 Degree Road Maps
 
+=======
+Contact
+Department of Computer Science
+Chair: Richard Covington
+Jacaranda Hall (JD) 4503
+(818) 677-3398
+
+Degree Road Maps
+>>>>>>> master
 Computer Information Technology - 2019
 
 Previous Years
 
 Transfer Road Maps
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 Computer Information Technology - 2019
 
 Previous Years

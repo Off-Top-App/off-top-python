@@ -7,7 +7,10 @@ Computer Science
 Program: B.S., Computer Science
 
 Program Description
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 The B.S. degree in Computer Science provides a broad knowledge of computing and is designed for students who desire: (a) to pursue
 graduate work in computer science and (b) to work on the development and support of software projects in a diverse range of specialized
 areas. The Computer Science degree consists of a set of core courses and a 15-unit senior electives package. The core of the program covers
@@ -16,7 +19,10 @@ societal implications in computing. The senior electives package allows students
 applications, networking, gaming, graphics, software engineering and security.
 
 Program Requirements
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 The B.S. in Computer Science program requires a total of 120 units, including General Education requirements, major core courses and a 15-
 unit senior electives package. To graduate, a student must complete a minimum of 18 residency units from the list of upper division required
 courses listed below in addition to all other institutional residency requirements.
@@ -147,6 +153,7 @@ Computer Science, B.S.
 
 Total Units Required for the B.S. Degree: 120
 
+<<<<<<< HEAD
 Contact
 
 Department of Computer Science
@@ -156,6 +163,9 @@ Jacaranda Hall (JD) 4503
 
 Student Learning Outcomes
 
+=======
+Student Learning Outcomes
+>>>>>>> master
 Students who successfully complete the Bachelor of Science program in Computer Science will be able to:
 
 1. Analyze a complex computing problem and apply principles of computing and other relevant disciplines to identify solutions.
@@ -166,14 +176,27 @@ program’s discipline.
 5. Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline.
 6. Apply computer science theory and software development fundamentals to produce computing-based solutions.
 
+<<<<<<< HEAD
 Degree Road Maps
 
+=======
+Contact
+Department of Computer Science
+Chair: Richard Covington
+Jacaranda Hall (JD) 4503
+(818) 677-3398
+
+Degree Road Maps
+>>>>>>> master
 Computer Science - 2019
 
 Previous Years
 
 Transfer Road Maps
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 Computer Science - 2019
 
 Previous Years

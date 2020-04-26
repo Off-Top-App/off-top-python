@@ -7,7 +7,10 @@ Electrical and Computer Engineering
 Program: B.S., Computer Engineering
 
 Program Description
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 “Nowadays the world is lit by lightning,” playwright Tennessee Williams wrote. But electrical and computer engineers prove him wrong every
 day.
 
@@ -38,7 +41,10 @@ helicopter. Other projects include developing a sophisticated stereo system, a c
 tuner, fabrication of a hybrid circuit, software-defined radio, etc.
 
 Program Requirements
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 The Computer Engineering program is based on an expectation of adequate high school preparation in science, mathematics and English.
 High school courses should include algebra, plane geometry, trigonometry, chemistry or physics (all desirable), and four years of English.
 
@@ -187,6 +193,7 @@ ECE 527/ECE 527L Application Specific Integrated Circuit Development and Lab (3/
 ECE 546 Very Large Scale Integrated Circuit Design (3)
 ECE 562 Data Communication Network (3)
 
+<<<<<<< HEAD
 Note: Some elective courses have prerequisites that are not part of the required program. All courses must include the lab, if one exists. Other
 courses may be selected with the approval of the ECE department chair. The total number of units in the major is 96.
 
@@ -198,6 +205,8 @@ Physical Science may be used to satisfy sections B1-3. MATH 150A satisfies Basic
 satisfies B5 Scientific Inquiry and Quantitative Reasoning; MSE 304 satisfies 3 units of upper division D1 Social Science; and COMP 110/L
 satisfies E Lifelong Learning.
 
+=======
+>>>>>>> master
 Total Units in the Major: 96
 
 General Education Units: 27
@@ -205,12 +214,29 @@ General Education Units: 27
 Total Units Required for the Degree: 123
 
 Contact
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 Department of Electrical and Computer Engineering
 Chair: Sembiam Rengarajan
 Jacaranda Hall (JD) 4509
 (818) 677-2190
 
+<<<<<<< HEAD
+=======
+Note: Some elective courses have prerequisites that are not part of the required program. All courses must include the lab, if one exists. Other
+courses may be selected with the approval of the ECE department chair. The total number of units in the major is 96.
+
+5. General Education (48 units)
+
+Undergraduate students must complete 48 units of General Education as described in this Catalog.
+21 units are satisfied by coursework in the major. Completion of the Computer Engineering major satisfies A3 Critical Thinking. 6 units of
+Physical Science may be used to satisfy sections B1-3. MATH 150A satisfies Basic Skills B4 Mathematics/Quantitative Reasoning; ECE 340
+satisfies B5 Scientific Inquiry and Quantitative Reasoning; MSE 304 satisfies 3 units of upper division D1 Social Science; and COMP 110/L
+satisfies E Lifelong Learning.
+
+>>>>>>> master
 https://catalog.csun.edu/academics/ece/programs/bs-computer-engineering/
 
 3/4
@@ -247,13 +273,19 @@ impact of engineering solutions in global, economic, environmental and societal 
 inclusive environment.
 
 Degree Road Maps
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 Computer Engineering - 2019
 
 Previous Years
 
 Transfer Road Maps
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 Computer Engineering - 2019
 
 Previous Years
