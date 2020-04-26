@@ -24,3 +24,7 @@ sportDatasetGen.*
 *.rar
 *.tar
 *.zip
+
+Virtualenv/Lib/__pycache__/*
+Virtualenv/Lib/collections/__pycache__/*
+Virtualenv/Lib/encodings/__pycache__/*

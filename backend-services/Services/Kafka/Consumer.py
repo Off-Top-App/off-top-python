@@ -20,7 +20,7 @@ def Consumer():
     try:
         for incoming_message in consumer:
             consumed_value = json.loads(incoming_message.value.decode('utf-8'))
-            print("SUBSCRIBING TO TOPIC: IncomingAudioEvent:\nMessage=", consumer)
+            print("SUBSCRIBING TO TOPIC: 'IncomingAudioEvent'\nMessage=", consumed_value)
     
     except KeyboardInterrupt:
         sys.exit()
