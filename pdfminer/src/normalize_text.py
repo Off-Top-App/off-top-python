@@ -77,4 +77,3 @@ txtDir = "C:/Users/nico/Desktop/Off-Top/off-top-python/pdfminer/txt/"
 cleanedTxtDir ="C:/Users/nico/Desktop/Off-Top/off-top-python/pdfminer/clean/"
 
 convertMultiple(txtDir, cleanedTxtDir)
-
