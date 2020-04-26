@@ -14,6 +14,27 @@ app.config["MONGO_URI"] = "mongodb+srv://off-top-dev:offtop123@cluster0-ci5ku.gc
 app.config["JSON_SORT_KEYS"] = False
 mongo = PyMongo(app)
 
+@app.route('/get-user-topic', methods=['GET'])
+def aggregateUserTopics():
+  sessions = getAllSessions()
+  all_sessions = sessions.json.get("sessions")
+
+  user_ids = [1,2,3,4,5,6]
+  user_topic_list =[]
+  
+  for user_id in user_ids:
+    for session in all_sessions:
+      session_user_id = int(session['user_id'])
+      if user_id == session_user_id:
+        user_topic={
+          "user_id": session_user_id,
+          "topic": session["topic"]
+        }
+        if user_topic not in user_topic_list:
+          user_topic_list.append(user_topic)
+
+  return jsonify(user_topic_list)
+
 @app.route("/")
 def hello():
     return "Hello World!"
