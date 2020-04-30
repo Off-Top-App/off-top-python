@@ -1,0 +1,897 @@
+Apple
+Malus pumila
+Apple cultivars
+Chinese quince
+Pseudocydonia sinensis
+Chokeberry
+Aronia melanocarpa
+Cocky apple
+Planchonia careya
+Eastern mayhaw
+Crataegus aestivalis
+Hawthorn
+Crataegus rhipidophylla
+Jagua
+Genipa americana
+Loquat
+Eriobotrya japonica
+Lovilovi
+Flacourtia inermis
+Medlar
+Mespilus germanica
+Niedzwetzkys apple
+Malus niedzwetzkyana
+Pear
+Pyrus communis
+Pear cultivars
+Quince
+Cydonia oblonga
+Ramontchi
+Flacourtia indica
+Rose hip
+Rosa rugosa
+Rowan
+Sorbus aucuparia
+Sapodilla
+Manilkara zapota
+Scarlet firethorn
+Pyracantha coccinea
+Serviceberry
+Amelanchier alnifolia
+Shipova
+× Sorbopyrus irregularis
+Sorb
+Sorbus domestica
+Southern crabapple
+Malus angustifolia
+Toyon
+Heteromeles arbutifolia
+Açaí
+Euterpe oleracea
+Acerola
+Malpighia emarginata
+African mango
+Irvingia gabonensis
+African mangosteen
+Garcinia livingstonei
+African oil palm fruit
+Elaeis guineensis
+Alaskan bunchberry
+Cornus
+unalaschkensis
+Ambarella
+Spondias dulcis
+American oil palm fruit
+Elaeis oleifera
+American plum
+Prunus americana
+Apricot
+Prunus armeniaca
+Bambangan
+Mangifera pajang
+Beach plum
+Prunus maritima
+Bignay
+Antidesma bunius
+Binjai
+Mangifera caesia
+Black cherry
+Prunus serotina
+Bolivian mountain coconut
+Parajubaea torallyi
+Brush cherry
+Syzygium australe
+Bush butter fruit
+Dacryodes edulis
+Canadian bunchberry
+Cornus canadensis
+Casimiroa
+Casimiroa edulis
+Cedar bay cherry
+Eugenia reinwardtiana
+Changunga
+Byrsonima crassifolia
+Cherry
+Prunus avium
+Cherry elaeagnus
+Elaeagnus multiflora
+Cherry of the rio grande
+Eugenia involucrata
+Chinese date
+Ziziphus mauritiana
+Choke cherry
+Prunus virginiana
+Cocoplum
+Chrysobalanus icaco
+Coconut
+Cocos nucifera
+Cornelian cherry
+Cornus mas
+Countryalmond
+Terminalia catappa
+Creek plum
+Prunus rivularis
+Crowberry
+Empetrum nigrum
+Curry berry
+Murraya koenigii
+Damson
+Prunus domestica subsp insititia
+Date
+Phoenix dactylifera
+Desert quandong
+Santalum acuminatum
+Emblic
+Phyllanthus emblica
+Emu apple
+Owenia acidula
+Engkala
+Litsea garciae
+Fibrous satinash
+Syzygium fibrosum
+Flatwoods plum
+Prunus umbellata
+Gomortega
+Gomortega keule
+Greengage
+Prunus domestica subsp italica
+Green plum
+Buchanania obovata
+Guavaberry
+Myrciaria floribunda
+Gubinge
+Terminalia ferdinandiana
+Hairless rambutan
+Nephelium xerospermoides
+Jambolan
+Syzygium cumini
+Jelly palm fruit
+Butia capitata
+Jocote
+Spondias purpurea
+Jujube
+Ziziphus jujuba
+Kelsey plum
+Prunus salicina spp
+King coconut
+Cocos nucifera var aurantiaca
+Korlan
+Nephelium hypoleucum
+Little gooseberry
+Buchanania arborescens
+Longan
+Dimocarpus longan
+Lychee
+Litchi chinensis
+Malay rose apple
+Syzygium malaccense
+Mamey sapote
+Pouteria sapota
+Mango
+Mangifera indica
+Mango cultivars
+Maprang
+Bouea macrophylla
+Marula
+Sclerocarya birrea
+Miracle fruit
+Synsepalum dulcificum
+Moriche palm fruit
+Mauritia flexuosa
+Nectarine
+Prunus persica var nucipersica
+Neem
+Azadirachta indica
+Nepali hog plum
+Choerospondias axillaris
+Nutmeg
+Myristica fragrans
+Otaheite gooseberry
+Phyllanthus acidus
+Peach
+Prunus persica
+Peanut butter fruit
+Bunchosia glandulifera
+Pequi
+Caryocar brasiliense
+Pigeon plum
+Coccoloba diversifolia
+Pili
+Canarium ovatum
+Pitanga
+Eugenia uniflora
+Plum
+Prunus domestica
+Plum cultivars
+Pulasan
+Nephelium mutabile
+Rambutan
+Nephelium lappaceum
+Red bush apple
+Syzygium suborbiculare
+Riberry
+Syzygium luehmannii
+Sageretia
+Sageretia theezans
+Saw palmetto fruit
+Serenoa repens
+Sea coconut
+Lodoicea maldivica
+Shoebutton ardisia
+Ardisia elliptica
+Silver buffaloberry
+Shepherdia argentea
+Sloe
+Prunus spinosa
+Spanish cherry
+Mimusops elengi
+Spanish lime
+Melicoccus bijugatus
+Tamarindplum
+Dialium indum
+Velvet tamarind
+Dialium cochinchinense
+Velvet tamarind
+Dialium guineense
+Watery rose apple
+Syzygium aqueum
+Wax apple
+Syzygium samarangense
+Wild peach
+Terminalia carpentariae
+Wongi
+Manilkara kauki
+Yangmei
+Myrica rubra
+Yellow plum
+Ximenia americana
+Zwetschge
+Prunus domestica subsp domestica
+African cherry orange
+Citropsis articulata
+Amanatsu
+Citrus × natsudaidai
+Bajoura citron
+Citrus medica ssp bajoura
+Bergamot orange
+Citrus bergamia
+Bitter orange
+Citrus × aurantium
+Blood lime
+Citrus australasica var sanguinea x
+Blood orange
+Citrus × sinensis
+Buddhas hand
+Citrus medica var sarcodactylis
+Calamondin
+× Citrofortunella microcarpa
+Cam sành
+Citrus reticulata × sinensis
+Centennial variegated kumquat
+Citrus margarita
+Citron
+Citrus medica
+Citron cultivars
+Clementine
+Citrus × clementina
+Desert lime
+Citrus glauca
+Etrog
+Citrus medica var ethrog
+Finger lime
+Citrus australasica
+Florentine citron
+Citrus × limonimedica
+Grapefruit
+Citrus × paradisi
+Hyuganatsu
+Citrus tamurana
+Ichang papeda
+Citrus cavaleriei
+Iyokan
+Citrus × iyo
+Jiangsu kumquat
+Citrus obovata
+Kabosu
+Citrus sphaerocarpa
+Kaffir lime
+Citrus hystrix
+Key lime
+Citrus × aurantiifolia
+Kinnow
+Citrus nobilis × citrus × deliciosa
+Kiyomi
+Citrus unshiu × citrus sinensis
+Kumquat
+Citrus japonica
+Lemon
+Citrus limon
+Lime
+Citrus × latifolia
+Limequat
+Citrus × floridana
+Mandarin orange
+Citrus reticulata
+Mangshanyegan
+Citrus mangshanensis
+Meyer lemon
+Citrus × meyeri
+Myrtleleaved orange
+Citrus myrtifolia
+Ōgonkan
+Citrus flaviculpus
+Orange
+Citrus × sinensis
+Oroblanco
+Citrus grandis × citrus paradisi
+Oval kumquat
+Citrus margarita
+Persian lime
+Citrus × latifolia
+Pomelo
+Citrus maxima
+Ponderosa lemon
+Citrus × pyriformis
+Rangpur
+Citrus × limonia
+Round lime
+Citrus australis
+Satsuma mandarin
+Citrus unshiu
+Shangjuan
+Citrus cavaleriei × citrus
+Shonan gold
+Citrus flaviculpus × citrus unshiu
+Sudachi
+Citrus sudachi
+Sweet limetta
+Citrus limetta
+Taiwan tangerine
+Citrus × depressa
+Tangelo
+Citrus × tangelo
+Tangerine
+Citrus tangerina
+Tangor
+Citrus reticulata × sinensis
+Ugli fruit
+Citrus reticulata × citrus paradisi
+Yuzu
+Citrus junos
+Achacha
+Garcinia humilis
+Amazon grape
+Pourouma cecropiifolia
+American black elderberry
+Sambucus canadensis
+American red elderberry
+Sambucus pubens
+American red raspberry
+Rubus strigosus
+Angular seafig
+Carpobrotus glaucescens
+Apple berry
+Billardiera scandens
+Arabian coffee
+Coffea arabica
+Coffee cultivars
+Araza
+Eugenia stipitata
+Atherton raspberry
+Rubus probus
+Barberry
+Berberis vulgaris
+Bearberry
+Arctostaphylos uvaursi
+Bengal currant
+Carissa carandas
+Bilberry
+Vaccinium myrtillus
+Black currant
+Ribes nigrum
+Black mulberry
+Morus nigra
+Blackberry
+Rubus allegheniensis
+Blue guarri
+Euclea crispa
+Blue tongue
+Melastoma affine
+Blueberry
+Vaccinium corymbosum
+Bolwarra
+Eupomatia laurina
+Boquila
+Boquila trifoliolata
+Boysenberry
+Rubus ursinus × rubus idaeus
+Brazil cherry
+Eugenia brasiliensis
+Calabur fruit
+Muntingia calabura
+Calligonum junceum
+Calligonum junceum
+Camu camu
+Myrciaria dubia
+Cape gooseberry
+Physalis peruviana
+Cattley guava
+Psidium cattleyanum
+Ceylon gooseberry
+Dovyalis hebecarpa
+Chilean guava
+Ugni molinae
+Cloudberry
+Rubus chamaemorus
+Coarse dodderlaurel fruit
+Cassytha melantha
+Copperleaf snowberry
+Gaultheria hispida
+Conkerberry
+Carissa spinarum
+Cranberry
+Vaccinium macrocarpon
+Creeping raspberry
+Rubus hayatakoidzumii
+Cudrang
+Maclura tricuspidata
+Darwins barberry
+Berberis darwinii
+Dateplum
+Diospyros lotus
+Dewberry
+Rubus flagellaris
+Eastern teaberry
+Gaultheria procumbens
+Elderberry
+Sambucus nigra
+Emu berry
+Grewia retusifolia
+Fox grape
+Vitis labrusca
+Golden kiwifruit
+Actinidia chinensis
+Gooseberry
+Ribes uvacrispa
+Grape
+Vitis vinifera
+Grape cultivars
+Hackberry
+Celtis occidentalis
+Hardy kiwi
+Actinidia arguta
+Honeyberry
+Lonicera caerulea
+Honeysuckle
+Lonicera periclymenum
+Huckleberry
+Vaccinium ovatum
+Jabuticaba
+Plinia cauliflora
+Japanese bramble berry
+Rubus parvifolius
+Kei apple
+Dovyalis caffra
+Kiwifruit
+Actinidia deliciosa
+Kokum
+Garcinia indica
+Kwai muk
+Artocarpus hypargyreus
+Langsat
+Lansium parasiticum
+Lemon aspen fruit
+Acronychia acidula
+Limeberry
+Triphasia trifolia
+Lingonberry
+Vaccinium vitisidaea
+Loganberry
+Rubus × loganobaccus
+Mangaba
+Hancornia speciosa
+Maqui berry
+Aristotelia chilensis
+Mayapple
+Podophyllum peltatum
+Midgen berry
+Austromyrtus dulcis
+Molucca bramble berry
+Rubus moluccanus
+Mora común
+Rubus adenotrichos
+Mora de castilla
+Rubus glaucus
+Mortiño
+Vaccinium floribundum
+Muntrie
+Kunzea pomifera
+Muscadine
+Vitis rotundifolia
+Nannyberry
+Viburnum lentago
+Native cherry
+Exocarpos cupressiformis
+Native currant
+Acrotriche depressa
+Oregon grape
+Mahonia aquifolium
+Pentadiplandra brazzeana
+Pentadiplandra brazzeana
+Phalsa
+Grewia asiatica
+Pitombadabahia
+Eugenia luschnathiana
+Purple appleberry
+Billardiera longiflora
+Purple guava
+Psidium rufum
+Raspberry
+Rubus strigosus
+Red currant
+Ribes rubrum
+Red huckleberry
+Vaccinium parvifolium
+Red mulberry
+Morus rubra
+Roseleaf bramble berry
+Rubus rosifolius
+Rukam
+Flacourtia rukam
+Salal
+Gaultheria shallon
+Salmonberry
+Rubus spectabilis
+Saskatoon
+Amelanchier alnifolia
+Sea buckthorn
+Hippophae rhamnoides
+Sea grape
+Coccoloba uvifera
+Smallleaved myrtle berry
+Archirhodomyrtus beckleri
+Smallleaved tamarind
+Diploglottis campbellii
+Spanish tamarind
+Vangueria madagascariensis
+Strawberry
+Fragaria
+Strawberry cultivars
+Strawberry tree fruit
+Arbutus unedo
+Sweet appleberry
+Billardiera cymosa
+Tamarillo
+Solanum betaceum
+Tayberry
+Rubus fruticosus × rubus idaeus
+Texas persimmon
+Diospyros texana
+Thimbleberry
+Rubus parviflorus
+Wampee
+Clausena lansium
+White aspen berry
+Acronychia oblongifolia
+White bark raspberry
+Rubus leucodermis
+White mulberry
+Morus alba
+Wild orange
+Capparis mitchellii
+Wild strawberry
+Fragaria vesca
+Wineberry
+Rubus phoenicolasius
+Wolfberry
+Lycium barbarum
+Yantok
+Calamus manillensis
+Yellow mombin
+Spondias mombin
+Youngberry
+Rubus caesius
+Zigzag vine fruit
+Melodorum leichhardtii
+Bailan melon
+Cucumis melo var inodorus
+Canary melon
+Cucumis melo var inodorus
+Cassabanana
+Sicana odorifera
+Collective farm woman melon
+Cucumis melo
+Crane melon
+Cucumis melo
+Crenshaw melon
+Cucumis melo
+European cantaloupe
+Cucumis melo var cantalupensis
+Honeydew melon
+Cucumis melo var inodorus
+Horned melon
+Cucumis metuliferus
+Korean melon
+Cucumis melo var makuwa
+Muskmelon
+Cucumis melo
+North american cantaloupe
+Cucumis melo var reticulatus
+Reticulatus group cultivars
+Santa claus melon
+Cucumis melo var inodorus
+Sprite melon
+Cucumis melo
+Tigger melon
+Cucumis melo
+Watermelon
+Citrullus lanatus
+Abiu
+Pouteria caimito
+Ackee
+Blighia sapida
+African custardapple
+Annona senegalensis
+African locust bean
+Parkia biglobosa
+Aglaia teysmanniana
+Aglaia teysmanniana
+American persimmon
+Diospyros virginiana
+Annona conica
+Annona conica
+Asam gelugur
+Garcinia atroviridis
+Asam kelubi
+Eleiodoxa conferta
+Atemoya
+Annona squamosa × annona cherimola
+Babaco
+Vasconcellea × heilbornii
+Bacuri
+Platonia insignis
+Bael
+Aegle marmelos
+Banana
+Musa acuminata
+Banana cultivars
+Bilimbi
+Averrhoa bilimbi
+Biribá
+Rollinia deliciosa
+Black apple
+Pouteria australis
+Black sapote
+Diospyros nigra
+Brazilian guava
+Psidium guineense
+Breadfruit
+Artocarpus altilis
+Breadnut
+Artocarpus camansi
+Burahol
+Stelechocarpus burahol
+Burdekin plum
+Pleiogynium timoriense
+Burmese grape
+Baccaurea ramiflora
+Button mangosteen
+Garcinia prainiana
+Cacao
+Theobroma cacao
+Cainito
+Chrysophyllum cainito
+Canistel
+Pouteria campechiana
+Cashew apple
+Anacardium occidentale
+Cawesh
+Annona scleroderma
+Cempedak
+Artocarpus integer
+Charichuelo
+Garcinia madruno
+Cherimoya
+Annona cherimola
+Cherimoya cultivars
+Cluster fig
+Ficus racemosa
+Costa rican guava
+Psidium friedrichsthalianum
+Courbaril
+Hymenaea courbaril
+Cupuaçu
+Theobroma grandiflorum
+Custard apple
+Annona reticulata
+Davidsons plum
+Davidsonia jerseyana
+Dead mans fingers
+Decaisnea insignis
+Desert fig
+Ficus platypoda
+Doub palm fruit
+Borassus flabellifer
+Duguetia confinis
+Duguetia confinis
+Duguetia spixiana
+Duguetia spixiana
+Durian
+Durio zibethinus
+Elephant apple
+Dillenia indica
+Feijoa
+Acca sellowiana
+Ficus carrii
+Ficus carrii
+Fig
+Ficus carica
+Gấc
+Momordica cochinchinensis
+Gamboge
+Garcinia morella
+Garcinia cambogia
+Garcinia gummigutta
+Garcinia forbesii
+Garcinia forbesii
+Giant granadilla
+Passiflora quadrangularis
+Glenniea philippinensis
+Glenniea philippinensis
+Guava
+Psidium guajava
+Hala fruit
+Pandanus tectorius
+Hydnora abyssinica
+Hydnora abyssinica
+Icecream bean
+Inga edulis
+Ilama
+Annona diversifolia
+Jackfruit
+Artocarpus heterophyllus
+Jícara
+Crescentia cujete
+Kola nut
+Cola nitida
+Keluak
+Pangium edule
+Kundong
+Garcinia parvifolia
+Lardizabala
+Lardizabala biternata
+Lúcuma
+Pouteria lucuma
+Luóhàn guǒ
+Siraitia grosvenorii
+Malabar plum
+Syzygium jambos
+Mammee
+Mammea americana
+Marolo
+Annona crassiflora
+Maypop
+Passiflora incarnata
+Menteng
+Baccaurea racemosa
+Monkey fruit
+Artocarpus lacucha
+Monkey jackfruit
+Artocarpus rigidus
+Monkeypod
+Pithecellobium dulce
+Monstera deliciosa
+Monstera deliciosa
+Mountain soursop
+Annona montana
+Mundu
+Garcinia dulcis
+Naranjilla
+Solanum quitoense
+Natal orange
+Strychnos spinosa
+Noni
+Morinda citrifolia
+Ooray
+Davidsonia pruriens
+Papaya
+Carica papaya
+Passiflora platyloba
+Passiflora platyloba
+Passionfruit
+Passiflora edulis
+Pawpaw
+Asimina triloba
+Pepino
+Solanum muricatum
+Persimmon
+Diospyros kaki
+Pineapple
+Ananas comosus
+Pomegranate
+Punica granatum
+Pond apple
+Annona glabra
+Purple mangosteen
+Garcinia mangostana
+Red fruit
+Pandanus conoideus
+Salak
+Salacca zalacca
+Sandpaper fig
+Ficus coronata
+Santol
+Sandoricum koetjape
+Smooth davidsons plum
+Davidsonia johnsonii
+Soncoya
+Annona purpurea
+Soursop
+Annona muricata
+South american sapote
+Quararibea cordata
+Star fruit
+Averrhoa carambola
+Strangler fig
+Ficus aurea
+Sugarapple
+Annona squamosa
+Sweet granadilla
+Passiflora ligularis
+Sycamore fig
+Ficus sycomorus
+Tamarind
+Tamarindus indica
+Terap
+Artocarpus odoratissimus
+Trichosanthes beccariana
+Trichosanthes beccariana
+Vanilla
+Vanilla planifolia
+Velvet apple
+Diospyros blancoi
+White fig
+Ficus virens
+Wild jack
+Artocarpus hirsutus
+Woodapple
+Limonia acidissima
+Yellow granadilla
+Passiflora edulis f flavicarpa
+Bilberry cactus fruit
+Myrtillocactus geometrizans
+Cardón fruit
+Pachycereus pringlei
+Dragon fruit
+Hylocereus undatus
+Karkalla fruit
+Carpobrotus rossii
+Peruvian apple cactus fruit
+Cereus repandus
+Prickly pear fruit
+Opuntia ficusindica
+Saguaro fruit
+Carnegiea gigantea
+Juniper berry
+Juniperus communis
+Kahikatea
+Dacrycarpus dacrydioides
+Manoao
+Manoao colensoi
+Nageia
+Nageia nagi
+Plum pine fruit
+Podocarpus elatus
+Podocarpus
+Podocarpus elongatus
+Prumnopitys
+Prumnopitys andina
+Raisin tree fruit
+Hovenia dulcis
+Rhubarb
+Rheum × hybridum
+Rhubarb cultivars
+Rimu
+Dacrydium cupressinum
+Tōtara
+Podocarpus totara

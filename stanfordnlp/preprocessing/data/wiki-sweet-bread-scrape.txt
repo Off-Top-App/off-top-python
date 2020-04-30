@@ -1,0 +1,143 @@
+Amish friendship bread
+Aniseed
+[1]
+Anpan
+Babka
+[4]
+Banana bread
+Banbury cake
+Bara brith
+[5]
+Barmbrack
+[6]
+Bath bun
+[3]
+Belgian bun
+Bienenstich
+Boston bun
+Bremer Klaben
+[7]
+Brioche
+Bublik
+Buccellato
+di Lucca
+Bun
+Cardamom bread
+Cemita
+[8]
+Chelsea bun
+[1]
+[3]
+Cinnamon roll
+Cocktail bun
+Coffee cake
+[9]
+Colomba di Pasqua
+Colston bun
+Concha
+Cougnou
+[10]
+Couque suisse
+Cozonac
+[11]
+Currant bun
+Dampfnudel
+Danish pastry
+[12]
+Dripping cake
+Egg waffle
+Fruit bun
+Gata
+[13]
+[14]
+Germknödel
+Gingerbread
+[15]
+Goro
+Guernsey Gâche
+Gugelhupf
+[16]
+Halguane
+Hefekranz
+Himbasha
+Honey bun
+Hot cross bun
+[17]
+Iced bun
+Kalach
+Kalács
+[18]
+Kerststol
+King cake
+Kolach
+[19]
+Kołacz
+[20]
+Kulich
+Lady Arundels Manchet
+Lardy cake
+[3]
+Lazarakia
+London bun
+Longevity peach
+Lotus seed bun
+Makówki
+Manchet
+Mantecadas
+[21]
+Melonpan
+Mosbolletjies
+Muffin
+Pain aux raisins
+Pain dépices
+Pan de coco
+Pan de muerto
+Pan de Pascua
+Pan dulce
+[22]
+Pandoro
+[23]
+Panettone
+[24]
+Paris buns
+Paska
+Pastel de Camiguín
+Peanut butter bun
+Penia
+[25]
+Persian
+Picatostes
+Pineapple bun
+Portuguese sweet bread
+[26]
+Pulla
+[27]
+Pumpkin bread
+Raisin bread
+[28]
+Rosca de reyes
+[29]
+Saffron bun
+[3]
+Sally Lunn bun
+[3]
+Scone
+Shortcake
+Singing hinny
+Skolebrød
+Soboro ppang
+Sticky bun
+Stollen
+[30]
+Suikerbrood
+Sushki
+Sweet roll
+Tahini roll
+Teacake
+Tsoureki
+[31]
+Vánočka
+Velhote
+Viennoiserie
+Waffle
+Welsh cake

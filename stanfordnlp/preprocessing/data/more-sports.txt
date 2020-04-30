@@ -1,362 +1,236 @@
 aerobics
-
 aikido
-
 archery
-
-artistic gymnastics
-
-baton twirling
-
+artistic
+gymnastics
+baton
+.
+.
+,
+-
+/
+*
+twirling
 bodybuilding
-
 boxing
-
-cross-country equestrianism
-
-cross-country running
-
-cycling
-
-discus throw
-
+cross
+country
 equestrianism
-
+running
+cycling
+discus
+throw
+equestrianism
 fencing
-
-figure skating
-
-horse racing
-
+figure
+skating
+horse
+racing
 judo
-
 karate
-
 kendo
-
 kickboxing
-
-kung fu
-
-long jump
-
+kung
+fu
+long
+jump
 marathon
-
-mixed martial arts
-
-Muay Thai
-
-pole vault
-
+mixed
+martial
+arts
+Muay
+Thai
+pole
+vault
 powerlifting
-
 racewalking
-
-rhythmic gymnastics
-
+rhythmic
+gymnastics
 sprint
-
 sumo
-
-sword-fighting
-
-trail running
-
+sword
+fighting
+trail
+running
 trampolining
-
 tumbling
-
 ultimate
-
 walking
-
 weightlifting
-
 wrestling
-Ball Sports
+Ball
 baseball
 basketball
 tennis
-
 badminton
-
 bowling
-
 cricket
-
 curling
-
 dodgeball
-
 football
-
 golf
-
 handball
-
 hockey
-
 horseball
-
 hurling
-
-ice hockey
-
+ice
+hockey
 kickball
-
 lacrosse
-
 paddle
-
 polo
-
 racquetball
-
 rinkball
-
 rounders
-
 rugby
-
 soccer
-
 softball
-
 squash
-
-table tennis
-
-unicycling basketball
-
-unicycling handball
-
-unicycling hockey
-
+table
+tennis
+unicycling
+basketball
+handball
+hockey
 volleyball
-
-water polo
-Extreme Sports
-BASE jumping
-
+water
+polo
+Extreme
+BASE
+jumping
 abseiling
-
 bouldering
-
 gliding
-
 kiteboarding
-
 kitesurfing
-
 parachuting
-
 paragliding
-
 parasailing
-
 skateboarding
-
 skydiving
-
 skysurfing
-
 snowboarding
-
 wakeboarding
-
 windsurfing
-Mountain Sports
+Mountain
+Sports
 climbing
-
-cross-country cycling
-
+crosscountry
+cycling
 hiking
-
 mountaineering
-Motorised Sports
+Motorised
+Sports
 drifting
-
-formula racing
-
-kart racing
-
+formula
+racing
+kart
+racing
 rallycross
-
-Mind Sports
-Go
-
+Mind
+Sports
 bridge
-
 checkers
-
 chess
-
 mahjong
 airsoft
-
 aquathlon
-
 ballooning
-
-barrel racing
-
+barrel
+racing
 biathlon
-
 capoeira
-
 cheerleading
-
 CrossFit
-
 dancing
-
 darts
-
 decathlon
-
 foosball
-
 gymkhana
-
 heptathlon
-
 jogging
-
-laser tag
-
+laser
+tag
 paintball
-
 parkour
-
 petanque
-
 pool
-
 triathlon
 backstroke
-
-butterfly stroke
-
-freestyle swimming
-
-winter sports
-
-water sports
-
+butterfly
+stroke
+freestyle
+swimming
+winter
+sports
+water
+sports
 ball
-
 racetrack
-
 jockey
-
 olympics
-
-olympic games
-
+olympic
+games
 player
-
 racer
-
 swimmer
-
 track
-
 ring
-
 velodrome
-
 stadium
-
 coach
-
 team
-
-olympic pool
-
+olympic
+pool
 court
-
 field
-
 arena
-
 athlete
-
 draw
-
 gym
-
 medal
-
 referee
-
 score
-
 sportsmanship
-
 tournament
-
 whistle
-
 javelin
-
 lane
-
 lap
-
 record
-
 basket
-
 pass
-
 dribble
-
-free throw
-
+free
+throw
 hoop
-
-slam dunk
-
+slam
+dunk
 foul
-
-time-out
-
+time
+out
 goal
-
 goalkeeper
-
 volleyball
-
 penalty
-
 skates
-
 skateboard
-
-ski boot
-
+ski
+boot
 racquet
-
-baseball bat
-
+baseball
+bat
 catcher
-
 pitcher
-
-base hit
-
-home run
-
+base
+hit
+home
+run
 defeat
-
 defense
-
 fitness
-
 tie
-
 puck
-
 Athletics
 Swimming
 Weightlifting
@@ -369,29 +243,37 @@ Badminton
 Cricket
 Bowling
 Boxing
-Table tennis
+Table
+tennis
 Curling
 Tennis
 Skateboarding
 Surfing
 Hockey
 Shooting
-Horse racing
-Figure skating
+Horse
+racing
+Figure
+skating
 Yoga
 Fencing
 Fitness
 Gymnastics
 Karate
 Wrestling
-High jumping
-Hang gliding
-Car racing
+High
+jumping
+Hang
+gliding
+Car
+racing
 Cycling
 Fishing
 Running
 Judo
 Climbing
-Billiards/ Pool (U.S.)
+Billiards
+Pool
 Golf
-Football (U.K)/ Soccer (U.S., Australia)
+Football
+Soccer
