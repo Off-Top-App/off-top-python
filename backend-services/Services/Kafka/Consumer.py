@@ -4,6 +4,8 @@ import json
 from datetime import datetime
 import logging
 import sys
+import scipy.io.wavfile
+import numpy as np
 
 
 
@@ -21,7 +23,7 @@ def Consumer():
         for incoming_message in consumer:
             consumed_value = json.loads(incoming_message.value.decode('utf-8'))
             print("SUBSCRIBING TO TOPIC: IncomingAudioEvent:\nMessage=", consumer)
-    
+           
     except KeyboardInterrupt:
         sys.exit()
 
