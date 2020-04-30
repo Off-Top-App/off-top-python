@@ -6,6 +6,7 @@ from flask_pymongo import PyMongo
 from flask.templating import render_template
 from Models.UserSession import UserSession
 from flask_mysqldb import MySQL
+import requests
 
 app= Flask(__name__)
 # connect to MongoDB with the defaults
@@ -88,40 +89,5 @@ def insertSession():
     return jsonify({'new_session' : new_session})
 
   
-@app.route('/get-user-information', methods=['GET'])
-def retrieveUser():
-      cur = mysql.connection.cursor()
-      cur.execute ("SELECT * FROM user")
-      fetchdata = cur.fetchall()
-      cur.close()
-       
-      users = []
-      index = 0
-  
-      for row in fetchdata:
-          user_info = {
-              'id': index,
-              "user_id":row[0],
-              "age":row[1],
-              "city":row[2],
-              "first_name":row[6],
-              "last_name":row[8],
-              "email":row[5],
-              "gender":row[7],
-              "user_name":row[11],
-              "password":row[9],
-              "professional":row[10],
-              "created_at":row[3],
-              "deleted_at":row[4]
-            
-              }
-          users.append(user_info)
-      index+=1
-      all_users = {
-        "Users":users
-      }
-     
-      return jsonify(all_users)
-
 if __name__ == "__main__":
   app.run(debug=True)
