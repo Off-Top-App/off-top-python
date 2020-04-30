@@ -174,6 +174,7 @@ This part deals with Acquiring data from the web, preprocess it, clean it and an
 You will also find 3 Python scripts - `cleaning.py`, `deep_clean.py`, `datasetGen.py` which were used to preprocess and clean the raw data.
 `stanza-nlp.py` - The Flask server runs through a task scheduler, checks for input from a text file, and displays the processed results (Tokens, POS', NER tags) on the terminal every 10 seconds.
 - Each website you scrape needs a dedicated script to fit its outline. Inside the same branch navigate into stanfordnlp/webscraping and you will find 12 Python scripts - `webScrape.py`, `webScraping.py`, `webScrapingFastFood.py` which were used to scrape raw data from various websites.
+- The resulting annotated data and built training dataset can be found inside stanfordnlp/dataset under `offtop-main-train.bio`
 
 **How to use:**
 Locate the directory of `cleaning.py`, `deep_clean.py`, `datasetGen.py` inside stanfordnlp/preprocessing and then for example run `python3 deep_clean.py`. This will automatically run the process, generate the results on the terminal, and create an output file called clean-output.txt
