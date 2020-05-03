@@ -119,3 +119,62 @@ Python Flask server that checks for input from a text file containing the result
 **How to use:**
 Locate the directory of `stanza-nlp.py` inside stanfordnlp and then run `python3 stanza-nlp.py`. This will automatically run the processes and generate the results on the terminal.
 *Make sure you have the input .txt file in the same directory which is the same file that Mozilla DeepSpeech generated with the results.
+
+### NER Training Dataset [ML] | Webscraping | Data Preprocessing:
+This part deals with Acquiring data from the web, preprocess it, clean it and annotate it to be well formatted as a training dataset.
+
+**Pre-Reqs:**
+- Need to have Python3 installed and `pip3`.
+
+- Need to set up a virtual environment in Python skip to 'Activate' if you already have one set up.
+  - Use the following command to install virtual-env: 
+   (Linux) `sudo apt install python3-venv`
+   (Windows) `pip3 install virtualenv`
+  - Create a virtual directory which has the required scripts using: `python3 -m venv my-venv`
+  - Activate the virtual env using the following command: `source my-venv/bin/activate`
+   
+- Need to have requests package installed using:
+   - (Linux) `sudo apt-get install requests`
+   - (Windows)`pip3 install requests`
+   - (Mac) `pip3 install requests`
+
+- Need to have urllib.request package installed using:
+   - (Windows)`pip3 install urllib2`
+   - (Mac) `pip3 install urllib2`
+
+- Need to have pandas package installed using:
+   - (Windows)`pip3 install pandas`
+   - (Mac) `pip3 install pandas`
+
+- Need to have beautifulsoup4 package installed using:
+   - (Linux) `sudo apt-get install beautifulsoup4`
+   - (Windows)`pip3 install beautifulsoup4`
+   - (Mac) `pip3 install beautifulsoup4`
+
+- Need to have re2 package installed using:
+   - (Linux) `sudo apt-get install re2`
+   - (Windows)`pip3 install re2`
+   - (Mac) `pip3 install re2`
+   
+- Need to have nltk package installed using:
+   - (Linux) `sudo apt-get install nltk`
+   - (Windows)`pip3 install nltk`
+   - (Mac) `pip3 install nltk`
+   
+- Need to have unicodedata package installed using:
+   - (Linux) `sudo apt-get install unicodedata`
+   - (Windows)`pip3 install unicodedata`
+   - (Mac) `pip3 install unicodedata`
+
+**Description:**
+- In order to build a training dataset for our custom NERProcessor model we went used webscraping tools to mine terms, names, keywords brands related to Sport and Food.
+- The data we gathered was not in the perfect form, we had to clean and preprocess it for example: Dataset generation, splitting, tokenization, character removal, filtering out punctuation, etc.
+- The training dataset had to be in BIO format, that's why we annotated our data accordingly.
+- Inside this branch navigate into stanfordnlp/preprocessing. You will see two folders, 'clean-data' which includes the processed/cleaned data, and 'data' which includes raw unprocessed and scraped data. 
+You will also find 3 Python scripts - `cleaning.py`, `deep_clean.py`, `datasetGen.py` which were used to preprocess and clean the raw data.
+- Each website you scrape needs a dedicated script to fit its outline. Inside the same branch navigate into stanfordnlp/webscraping and you will find 12 Python scripts - `webScrape.py`, `webScraping.py`, `webScrapingFastFood.py` which were used to scrape raw data from various websites.
+- The resulting annotated data and built training dataset can be found inside stanfordnlp/dataset under `offtop-main-train.bio`
+
+**How to use:**
+Locate the directory of `cleaning.py`, `deep_clean.py`, `datasetGen.py` inside stanfordnlp/preprocessing and then for example run `python3 deep_clean.py`. This will automatically run the process, generate the results on the terminal, and create an output file called clean-output.txt
+Locate the directory of `webScrape.py`, `webScraping.py`, `webScrapingFastFood.py` inside stanfordnlp/webscraping and then for example run `python3 webScrape.py`. This will automatically run the process, generate the results on the terminal, and create an output file called food-scrape.txt

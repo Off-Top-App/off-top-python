@@ -1,8 +1,0 @@
-Always create a virtual environment when working with Python:
-
-mkdir venv
-cd venv
-python -m venv .
-cd Scripts
-activate
-

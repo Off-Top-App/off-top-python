@@ -24,8 +24,8 @@ requirements.
 
 Special Grade Requirements
 
-No grade lower than a “C” will be accepted on transfer from another institution to satisfy the graduation requirements in Information
-Technology. Where specific grade requirements are not specified, no CSUN grade lower than a “C-” will be accepted for courses required in
+No grade lower than a ï¿½Cï¿½ will be accepted on transfer from another institution to satisfy the graduation requirements in Information
+Technology. Where specific grade requirements are not specified, no CSUN grade lower than a ï¿½C-ï¿½ will be accepted for courses required in
 the B.S. CIT program.
 
 1. Lower Division Required Courses (24 units)
@@ -119,7 +119,7 @@ College of Business and Economics. The intent of the minor is to focus studies i
 a career. Students interested in focusing their studies on business are advised to explore the Information Systems degree options offered by
 the Department of Accounting and Information Systems. A minor must consist of at least 18 units, but some requirements in a minor might
 also be applied toward meeting General Education requirements.
-b. Completion of a cohesive set of classes, called the Domain Emphasis Package, determined though consultation with the student’s faculty
+b. Completion of a cohesive set of classes, called the Domain Emphasis Package, determined though consultation with the studentï¿½s faculty
 advisor and requiring approval by the department chair prior to enrollment in any course contained in the package. This package should
 focus on a specific IT or application domain. Such a package shall consist of 15 units, with no more than 6 units of lower division classes
 chosen strategically to meet the prerequisites of the other classes also included in the package. The package cannot contain courses
@@ -157,10 +157,10 @@ Students graduating from the B.S. CIT program will be able to:
 
 1. Analyze a complex computing problem and apply principles of computing and other relevant disciplines to identify solutions.
 2. Design, implement and evaluate a computing-based solution to meet a given set of computing requirements in the context of the
-program’s discipline.
+programï¿½s discipline.
 3. Communicate effectively in a variety of professional contexts.
 4. Recognize professional responsibilities and make informed judgments in computing practice based on legal and ethical principles.
-5. Function effectively as a member or leader of a team engaged in activities appropriate to the program’s discipline.
+5. Function effectively as a member or leader of a team engaged in activities appropriate to the programï¿½s discipline.
 6. Identify and analyze user needs and to take them into account in the selection, creation, integration, evaluation and administration of
 computing-based systems.
 
