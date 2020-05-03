@@ -21,7 +21,7 @@ def aggregateUserTopics():
 
   user_ids = [1,2,3,4,5,6]
   user_topic_list =[]
-  
+
   for user_id in user_ids:
     for session in all_sessions:
       session_user_id = int(session['user_id'])
@@ -34,6 +34,38 @@ def aggregateUserTopics():
           user_topic_list.append(user_topic)
 
   return jsonify(user_topic_list)
+
+@app.route('/get-users-avg-scores', methods=['GET'])
+def userAverageFocusScore():
+  sessions = getAllSessions()
+  all_sessions = sessions.json.get("sessions")
+
+  user_ids = [1,2,3,4,5,6]
+  user_score_list =[]
+  summedScore = 0
+  user_session_count = 0
+
+  for user_id in user_ids:
+    for session in all_sessions:
+      session_user_id = int(session['user_id'])
+      if user_id == session_user_id:
+        user_session_count +=1
+        if session['focus_score'] == 'true':
+          summedScore += 1
+
+    avgScore = 10*(summedScore/user_session_count)
+
+    summedScore = 0
+    user_session_count = 0
+    user_avgScore = {
+      "user_id": user_id,
+      "avg_focus_score": avgScore
+    }
+
+    if user_avgScore not in user_score_list:
+      user_score_list.append(user_avgScore)
+
+  return jsonify(user_score_list)
 
 @app.route("/")
 def hello():
