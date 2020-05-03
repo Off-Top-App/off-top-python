@@ -26,7 +26,6 @@ def nlpProcess(task_status):
             line= line.strip()
 
     doc = nlp(line)
-
     print("Type:", type(doc))
     print("\nAnalyzing speech for Off-Top...\n")
     print("\nPipeline -> " + line)
