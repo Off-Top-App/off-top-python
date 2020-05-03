@@ -9,6 +9,7 @@ import soundfile as sf
 def convert_bytes_to_audio():
     f = open("test.txt","r")
     for line in f:
+        print('line: ', line)
         scipy.io.wavfile.write('format.wav',16, np.frombuffer(str.encode(line),dtype ='B'))
     f.close()
 

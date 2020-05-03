@@ -21,8 +21,18 @@ def Consumer():
 
     try:
         for incoming_message in consumer:
-            consumed_value = json.loads(incoming_message.value.decode('utf-8'))
-            print("SUBSCRIBING TO TOPIC: IncomingAudioEvent:\nMessage=", consumer)
+            consumed_value = json.loads(incoming_message.value)
+            # print("SUBSCRIBING TO TOPIC: IncomingAudioEvent:\nMessage=", consumed_value)
+            audioBytes= json.dumps(consumed_value['audioData'])
+            print(consumed_value)
+            parseAudioBytes = bytes(audioBytes.encode())
+            # byteArr = bytearray()
+            # byteArr.extend(va.encode())
+            # make file
+            # newFile = open("filename.txt", "wb")
+            # write to file
+            # for byte in bytes(va):
+                # newFile.write(byte.to_bytes(1, byteorder='big'))
            
     except KeyboardInterrupt:
         sys.exit()
