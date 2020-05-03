@@ -122,32 +122,42 @@ def retrieveUser():
       return jsonify(all_users)
 
 @app.route('/merge-user-data',methods=['GET'])
-def retrieveUsers(): 
+def mergeUserData(): 
   users = retrieveUser()
   get_users = users.json.get("Users")
   sessions = getAllSessions()
   all_sessions = sessions.json.get("sessions")
-  user_info_list = []
+  user_info_session_list = []
 
   for user in get_users:
-        for session in all_sessions:
-              user_id = int(user['user_id'])
-              session_user_id = int (session['user_id'])
-              if user_id == session_user_id:
-                 user_list = {
-                      "user_id" : user["user_id"],
-                      "first_name" : user["first_name"],
-                      "last_name" : user["last_name"],
-                      "gender" : user ["gender"],
-                      "profession" : user["professional"],
-                      "topic" :session["topic"],
-                      "focus_score" : session["focus_score"],
-                      "transcribed_at" : session["transcribed_at"],
-                      "transcribed_speech" : session["transcribed_speech"]
+        user_list = {
+             "user_id": user["user_id"],
+             "first_name": user["first_name"],
+             "last_name": user["last_name"],
+             "gender": user["gender"],
+             "profession": user["professional"],
                  }
-                 if user_id not in user_info_list:
-                  user_info_list.append(user_list)
-  return jsonify(user_info_list)
+
+        user_id = int(user["user_id"])
+        session_list = []
+        for session in all_sessions:
+            session_user_id = int(session["user_id"])
+            if user_id == session_user_id:
+
+             session_object = {
+              "first_received_at": session["first_received_at"],
+               "topic": session["topic"],
+               "focus_score": session["focus_score"],
+               "transcribed_at": session["transcribed_at"],
+               "transcribed_speech": session["transcribed_speech"]
+                      }
+            session_list.append(session_object)
+            user_list["session"] = session_list
+
+            if user_id not in user_info_session_list:
+                  user_info_session_list.append(user_list)
+
+  return jsonify(user_info_session_list)
               
 
 if __name__ == "__main__":
