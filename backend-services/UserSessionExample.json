@@ -1,0 +1,64 @@
+user_session_list = []
+for user in mysql_data:
+    for m in mongo_data:
+        mysql_mongo_list = []
+        if(user.user_id == m.user_id):
+            //create mysql object
+            //session_data
+            session_data_list.appned(m)
+    user_session_list.append(mysql_mongo_list)
+
+
+
+[
+	{
+        “user_id”: "4",
+        “first_name”: mysqldata[‘first_name’],
+        "last_name" : mysqldata[‘last_name’],
+        "gender" : mysqldata[‘gender’],
+        "profession" : profession,
+	    “Session_data”: [
+		    {
+                "user_id":"4",
+                "topic":"computer science",
+                "first_received_at":"2020-03-18 20:00:21.079",
+                "focus_score":"false",
+                "transcribed_at":"2020-03-18 20:01:04.987",
+                "transcribed_speech":"An international team of researchers have found a new way to speed up quantum computing that computer processing power."
+            },
+            {
+                "user_id":"4",
+                "topic":"computer science",
+                "first_received_at":"2020-03-18 20:05:21.079",
+                "focus_score":"true",
+                "transcribed_at":"2020-03-18 20:01:04.987",
+                "transcribed_speech":"An international team of researchers have found a new way to speed up quantum computing that could pave the"
+            }
+        ]
+    },
+    {
+        “user_id”: "5",
+        “first_name”: mysqldata[‘first_name’],
+        "last_name" : mysqldata[‘last_name’],
+        "gender" : mysqldata[‘gender’],
+        "profession" : profession,
+	    “session_data”: [
+		    {
+                "user_id":"5",
+                "topic":"computer science",
+                "first_received_at":"2020-03-18 20:00:21.079",
+                "focus_score":"85",
+                "transcribed_at":"2020-03-18 20:01:04.987",
+                "transcribed_speech":"An international team of researchers have found a new way to speed up quantum computing that computer processing power."
+            },
+            {
+                "user_id":"5",
+                "topic":"computer science",
+                "first_received_at":"2020-03-18 20:05:21.079",
+                "focus_score":"85",
+                "transcribed_at":"2020-03-18 20:01:04.987",
+                "transcribed_speech":"An international team of researchers have found a new way to speed up quantum computing that could pave the"
+            }
+        ]
+    }
+]
