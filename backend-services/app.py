@@ -8,6 +8,7 @@ from Models.UserSession import UserSession
 from flask import session
 from flask_mysqldb import MySQL
 import requests
+import json
 
 
 app= Flask(__name__)
@@ -42,6 +43,7 @@ def aggregateUserTopics():
         }
         if user_topic not in user_topic_list:
           user_topic_list.append(user_topic)
+        
 
   return jsonify(user_topic_list)
 
@@ -71,11 +73,43 @@ def userAverageFocusScore():
       "user_id": user_id,
       "avg_focus_score": avgScore
     }
+    user_score_list.append(user_avgScore)
 
     if user_avgScore not in user_score_list:
       user_score_list.append(user_avgScore)
 
-  return jsonify(user_score_list)
+    user_score_lists={
+      "avgScore":user_score_list
+    }
+
+  return jsonify(user_score_lists)
+
+@app.route('/get-users-profession-with-score', methods=['GET'])
+def getProfession():
+  users = retrieveUser()
+  get_users = users.json.get("Users")
+  user_average_score = userAverageFocusScore()
+  scores = user_average_score.json.get("avgScore")
+  profession_list = []
+
+  for user in get_users:
+     for score in scores: 
+       user_id = int (user["user_id"])
+       score_from_userAverageFocusScore = int (score["user_id"])
+
+       if user_id == score_from_userAverageFocusScore:
+             profession_object ={
+               "user_id": score["user_id"],
+               "avg_focus_score": score ["avg_focus_score"],
+               "profession" : user["professional"]
+             }
+             profession_list.append(profession_object)
+             profession_with_score ={
+               "profession_with_score":profession_list
+             }
+  return jsonify(profession_with_score)
+
+
 
 @app.route("/")
 def hello():
@@ -192,9 +226,6 @@ def mergeUserData():
 
   return jsonify(user_info_session_list)
               
-
-
-  
 
 if __name__ == "__main__":
   app.run(debug=True)
