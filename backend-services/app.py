@@ -11,6 +11,10 @@ from flask import session
 from flask_mysqldb import MySQL
 import requests
 import json
+import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
+from matplotlib.lines import Line2D
+import numpy as np
 
 
 app= Flask(__name__)
@@ -32,11 +36,12 @@ def userSessionDuration():
   sessions = getAllSessions()
   all_sessions = sessions.json.get("sessions")
 
-  user_ids = [1,2,3,4,5,6]
+  users = retrieveUsers().json.get("Users")
   user_time_list = []
   user_sesssion_duration_list = []
 
-  for user_id in user_ids:
+  for user in users:
+    user_id = int(user['user_id'])
     user_transcribed_counter = 0
     transcribed_list = []
     for session in all_sessions:
@@ -79,10 +84,11 @@ def aggregateUserTopics():
   sessions = getAllSessions()
   all_sessions = sessions.json.get("sessions")
 
-  user_ids = [1,2,3,4,5,6]
+  users = retrieveUsers().json.get("Users")
   user_topic_list =[]
 
-  for user_id in user_ids:
+  for user in users:
+    user_id = user['user_id']
     for session in all_sessions:
       session_user_id = int(session['user_id'])
       if user_id == session_user_id:
@@ -90,25 +96,40 @@ def aggregateUserTopics():
           "user_id": session_user_id,
           "topic": session["topic"]
         }
-        if user_topic not in user_topic_list:
-          user_topic_list.append(user_topic)
-        
-
+      if user_topic not in user_topic_list:
+        user_topic_list.append(user_topic)
+  visualizeTopics()
   return jsonify(user_topic_list)
+
+def visualizeTopics():
+  outputFile = "topicChart.png"
+  plt.switch_backend('Agg')
+  sizes= [33.3, 33.3, 33.3]
+  labels= ['sports', 'food', 'computer science']
+  colors = ['gold', 'yellowgreen', 'lightcoral']
+  explode = (0, 0, 0)  # explode 1st slice
+
+  plt.pie(sizes, explode=explode, labels=labels, colors=colors,
+  autopct='%1.1f%%', shadow=True, startangle=140)
+  plt.title("Topics")
+  plt.axis('equal')
+  plt.savefig(outputFile)
+  plt.show()
 
 @app.route('/get-users-avg-scores', methods=['GET'])
 def userAverageFocusScore():
   sessions = getAllSessions()
   all_sessions = sessions.json.get("sessions")
 
-  user_ids = [1,2,3,4,5,6]
+  user_ids = retrieveUsers().json.get("Users")
   user_score_list =[]
   summedScore = 0
   user_session_count = 0
 
-  for user_id in user_ids:
+  for user in user_ids:
     for session in all_sessions:
       session_user_id = int(session['user_id'])
+      user_id = int(user['user_id'])
       if user_id == session_user_id:
         user_session_count +=1
         if session['focus_score'] == 'true':
@@ -135,7 +156,7 @@ def userAverageFocusScore():
 
 @app.route('/get-users-profession-with-score', methods=['GET'])
 def getProfession():
-  users = retrieveUser()
+  users = retrieveUsers()
   get_users = users.json.get("Users")
   user_average_score = userAverageFocusScore()
   scores = user_average_score.json.get("avgScore")
@@ -149,16 +170,50 @@ def getProfession():
        if user_id == score_from_userAverageFocusScore:
              profession_object ={
                "user_id": score["user_id"],
-               "avg_focus_score": score ["avg_focus_score"],
+               "avg_focus_score": score["avg_focus_score"],
                "profession" : user["professional"]
              }
              profession_list.append(profession_object)
              profession_with_score ={
                "profession_with_score":profession_list
              }
+  visualizeFocus(profession_with_score)
   return jsonify(profession_with_score)
 
+def visualizeFocus(users):
+  professions = []
+  focus_scores = []
+  colors = []
+  for user in users['profession_with_score']:
+    professions.append(user['profession'])
+    focus_scores.append(user['avg_focus_score'])
+    print(int(user['avg_focus_score']))
+    if(int(user['avg_focus_score']) >= 7.0):
+      colors.append('green')
+    elif(int(user['avg_focus_score']) > 4.0 and int(user['avg_focus_score']) < 7.0):
+      colors.append('yellow')
+    else:
+      colors.append('red')
 
+  plt.switch_backend('Agg')
+  legend_elements = [
+    Line2D([0], [0], color='g', lw=4, label='Good Focus Score'),
+    Line2D([0], [0], color='y', lw=4, label='Decent Focus Score'),
+    Line2D([0], [0], color='r', lw=4, label='Bad Focus Score'),
+  ]
+  plt.legend(handles=legend_elements)
+
+
+
+  outputFile = "focus_scores.png"
+  index = np.arange(len(professions))
+  plt.bar(index, focus_scores, color=colors, edgecolor='black')
+  plt.xlabel('User Professions', fontsize=10)
+  plt.ylabel('Focus Scores', fontsize=12)
+  plt.xticks(index, professions, fontsize=8, rotation=0)
+  plt.title('User Focus Scores')
+  plt.savefig(outputFile)
+  plt.show()
 
 @app.route("/")
 def hello():
@@ -207,39 +262,39 @@ def insertSession():
 
 
 @app.route('/get-user-information', methods=['GET'])
-def retrieveUser():
-      cur = mysql.connection.cursor()
-      cur.execute ("SELECT * FROM user")
-      fetchdata = cur.fetchall()
-      cur.close()
-       
-      users = []
+def retrieveUsers():
+  cur = mysql.connection.cursor()
+  cur.execute ("SELECT * FROM user")
+  fetchdata = cur.fetchall()
+  cur.close()
     
-      for row in fetchdata:
-          user_info = {
-              "user_id":row[0],
-              "age":row[1],
-              "city":row[2],
-              "first_name":row[6],
-              "last_name":row[8],
-              "email":row[5],
-              "gender":row[7],
-              "user_name":row[11],
-              "password":row[9],
-              "professional":row[10],
-              "created_at":row[3],
-              "deleted_at":row[4]
-              }
-          users.append(user_info)
-          all_users = {
-          "Users":users
+  users = []
+    
+  for row in fetchdata:
+      user_info = {
+          "user_id":row[0],
+          "age":row[1],
+          "city":row[2],
+          "first_name":row[6],
+          "last_name":row[8],
+          "email":row[5],
+          "gender":row[7],
+          "user_name":row[11],
+          "password":row[9],
+          "professional":row[10],
+          "created_at":row[3],
+          "deleted_at":row[4]
           }
-     
-      return jsonify(all_users)
+      users.append(user_info)
+      all_users = {
+      "Users":users
+      }
+  
+  return jsonify(all_users)
 
 @app.route('/merge-user-data',methods=['GET'])
 def mergeUserData(): 
-  users = retrieveUser()
+  users = retrieveUsers()
   get_users = users.json.get("Users")
   sessions = getAllSessions()
   all_sessions = sessions.json.get("sessions")
