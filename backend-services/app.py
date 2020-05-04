@@ -5,6 +5,8 @@ from flask import request
 from flask_pymongo import PyMongo
 from flask.templating import render_template
 from Models.UserSession import UserSession
+from datetime import datetime
+from datetime import timedelta
 from flask import session
 from flask_mysqldb import MySQL
 import requests
@@ -24,6 +26,53 @@ app.config['MYSQL_DB'] = 'offTop'
 
 mysql = MySQL(app)
 mongo = PyMongo(app)
+
+@app.route("/get-user-session-duration")
+def userSessionDuration():
+  sessions = getAllSessions()
+  all_sessions = sessions.json.get("sessions")
+
+  user_ids = [1,2,3,4,5,6]
+  user_time_list = []
+  user_sesssion_duration_list = []
+
+  for user_id in user_ids:
+    user_transcribed_counter = 0
+    transcribed_list = []
+    for session in all_sessions:
+      session_user_id = int(session['user_id'])
+      if user_id == session_user_id:
+        time = datetime.strptime(session["transcribed_at"], '%Y-%m-%d %H:%M:%S.%f')
+        transcribed_list.append(str(time))
+        user_transcribed_counter += 1
+
+    user_time ={
+      "user_id": user_id,
+      "first_transcribed_at": 0,
+      "last_transcribed_at": user_transcribed_counter,
+      "transcribed_list": sorted(transcribed_list)
+    }
+    user_time_list.append(user_time)
+    
+  for user in user_time_list:
+    first = user["first_transcribed_at"]
+    last = user["last_transcribed_at"]
+    transcribed_arr = user["transcribed_list"]
+    
+    last_time = datetime.strptime(transcribed_arr[last - 1], '%Y-%m-%d %H:%M:%S.%f')
+    first_time = datetime.strptime(transcribed_arr[first], '%Y-%m-%d %H:%M:%S.%f')
+    
+    t1 = timedelta(hours=first_time.hour, minutes=first_time.minute, seconds=first_time.second)
+    t2 = timedelta(hours=last_time.hour, minutes=last_time.minute, seconds=last_time.second)
+    
+    duration = t2 - t1
+    user_sesssion_duration = {
+      "user_id": user["user_id"],
+      "session_duration": str(duration)
+    }
+    user_sesssion_duration_list.append(user_sesssion_duration)
+
+  return jsonify(user_sesssion_duration_list)
 
 @app.route('/get-user-topic', methods=['GET'])
 def aggregateUserTopics():
