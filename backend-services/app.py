@@ -4,27 +4,33 @@ from flask import Flask, jsonify
 from flask import request
 from flask_pymongo import PyMongo
 from flask.templating import render_template
-from Models.UserSession import UserSession
+#from Models.UserSession import UserSessionp
+
 from datetime import datetime
 from datetime import timedelta
 from flask import session
-from flask_mysqldb import MySQL
-import requests
+from flaskext.mysql import MySQL
+
+#from flask_mysqldb import MySQL
+#pipimport requests
 import json
 
 
 app= Flask(__name__)
 # connect to MongoDB with the defaults
+
 #@app.route(..) is a decorator. A decorator is a function that takes another function and extends the behavior of the latter function without explicitly modifying it.
 #It takes a URL rule
 app.config["MONGO_URI"] = "mongodb+srv://off-top-dev:offtop123@cluster0-ci5ku.gcp.mongodb.net/off-top-db"
 app.config["JSON_SORT_KEYS"] = False
-app.config['MYSQL_HOST'] = 'localhost'
-app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'password'
-app.config['MYSQL_DB'] = 'offTop'
+app.config['MYSQL_DATABASE_HOST'] = 'localhost'
+app.config['MYSQL_DATABASE_USER'] = 'root'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'password'
+app.config['MYSQL_DATABASE_DB'] = 'offTop'
 
-mysql = MySQL(app)
+# mysql = MySQL(app)
+mysql = MySQL()
+mysql.init_app(app)
 mongo = PyMongo(app)
 
 @app.route("/get-user-session-duration")
@@ -208,7 +214,7 @@ def insertSession():
 
 @app.route('/get-user-information', methods=['GET'])
 def retrieveUser():
-      cur = mysql.connection.cursor()
+      cur = mysql.get_db().cursor()
       cur.execute ("SELECT * FROM user")
       fetchdata = cur.fetchall()
       cur.close()
