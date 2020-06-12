@@ -17,9 +17,7 @@ from extensions import mongo, mysql
 
 api = Api()
 app = Flask(__name__)
-# connect to MongoDB with the defaults
-#@app.route(..) is a decorator. A decorator is a function that takes another function and extends the behavior of the latter function without explicitly modifying it.
-#It takes a URL rule
+
 app.config["MONGO_URI"] = "mongodb+srv://off-top-dev:offtop123@cluster0-ci5ku.gcp.mongodb.net/off-top-db"
 app.config["JSON_SORT_KEYS"] = False
 app.config['MYSQL_HOST'] = 'localhost'

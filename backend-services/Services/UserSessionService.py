@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify
 from extensions import mongo
-from datetime import datetime
+
 
 user_session_service = Blueprint("user_session", __name__)
 

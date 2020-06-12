@@ -5,7 +5,6 @@ from flask import session, request, jsonify
 from Services.UserSessionService import getAllSessions
 from datetime import datetime
 from extensions import mysql
-# userreports.py <-- userSessionDuration()
 
 user_reports_service = Blueprint("user_reports", __name__)
 
