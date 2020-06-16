@@ -1,5 +1,7 @@
-from flask import Blueprint, jsonify
+from flask import Blueprint, jsonify, request
 from extensions import mongo
+from Models.Session import Session
+
 
 
 user_session_service = Blueprint("user_session", __name__)
@@ -32,12 +34,12 @@ def getAllSessions():
 def insertSession():
     session_collection = mongo.db.sessions
     new_session = Session(
-      request.form["user_id"],
-      request.form["first_received_at"],
-      request.form["topic"],
-      request.form["focus_score"],
-      request.form["transcribed_at"],
-      request.form["transcribed_speech"]
+      request.form.get("user_id", False),
+      request.form.get("first_received_at", False),
+      request.form.get("topic", False),
+      request.form.get("focus_score", False),
+      request.form.get("transcribed_at", False),
+      request.form.get("transcribed_speech", False)
     ).__dict__
 
     session_collection.insert_one(new_session)

@@ -40,8 +40,6 @@ def userSessionDuration():
     last = user["last_transcribed_at"]
     transcribed_arr = user["transcribed_list"]
 
-    print(last)
-
     last_time = datetime.strptime(transcribed_arr[last - 1], '%Y-%m-%d %H:%M:%S.%f')
     first_time = datetime.strptime(transcribed_arr[first], '%Y-%m-%d %H:%M:%S.%f')
 
